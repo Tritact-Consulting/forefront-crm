@@ -32,6 +32,12 @@
                         <div class="logo">
                             <img src="assets/images/logo/forefront.png" alt="ForeFront Certification">
                             <h1>ForeFront Certification Limited <br>Client Application Form </h1>
+                            <div class="form-track">
+                                <div class="input-group mb-2">
+                                    <input type="text" name="track_id" id="track_id" class="form-control" placeholder="If you have any Track ID?">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,6 +60,18 @@
                             </div>
                             <div class="col-md-9 p-0">
                                 <input type="text" id="company_name" class="form-control" name="company_name">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_phone" class="col-form-label">Company Phone:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="company_phone" class="form-control" name="company_phone">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_email" class="col-form-label">Company Email:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="email" id="company_email" class="form-control" name="company_email">
                             </div>
                         </div>
                         <div class="row g-3 align-items-center form-row">
@@ -445,112 +463,112 @@
                             <div class="col-md">
                                 <label for="management_employees">Management</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="management_employees_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="management_employees_full">Full Time</label>
+                                    <input type="number" class="form-control" id="management_employees_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="management_employees_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="management_employees_part">Part Time</label>
+                                    <input type="number" class="form-control" id="management_employees_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="management_employees_full_2" value="">
-                                    <label for="management_employees_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="management_employees_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="management_employees_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="management_employees_part_2" value="">
-                                    <label for="management_employees_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="management_employees_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="management_employees_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="administration">Administration</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="administration_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="administration_full">Full Time</label>
+                                    <input type="number" class="form-control" id="administration_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="administration_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="administration_part">Part Time</label>
+                                    <input type="number" class="form-control" id="administration_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="administration_full_2" value="">
-                                    <label for="administration_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="administration_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="administration_part_2" value="">
-                                    <label for="administration_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="administration_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="it">I.T.</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="it_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="it_full">Full Time</label>
+                                    <input type="number" class="form-control" id="it_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="it_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="it_part">Part Time</label>
+                                    <input type="number" class="form-control" id="it_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="it_full_2" value="">
-                                    <label for="it_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="it_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="it_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="it_part_2" value="">
-                                    <label for="it_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="it_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="it_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="support_staff">Support staff</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="support_staff_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="support_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="support_staff_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="support_staff_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="support_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="support_staff_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="support_staff_full_2" value="">
-                                    <label for="support_staff_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="support_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="support_staff_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="support_staff_part_2" value="">
-                                    <label for="support_staff_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="support_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="support_staff_part_2" value="">
                                 </div>
                             </div>
                         </div>
@@ -561,172 +579,203 @@
                             <div class="col-md">
                                 <label for="operational_staff_sales">Sales</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_sales_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_sales_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_sales_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_sales_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_sales_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_sales_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_sales_full_2" value="">
-                                    <label for="operational_staff_sales_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_sales_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_sales_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_sales_part_2" value="">
-                                    <label for="operational_staff_sales_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_sales_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_sales_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="operational_staff_quality">Quality Control</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_quality_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_quality_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_quality_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_quality_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_quality_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_quality_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_quality_full_2" value="">
-                                    <label for="operational_staff_quality_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_quality_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_quality_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_quality_part_2" value="">
-                                    <label for="operational_staff_quality_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_quality_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_quality_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="operational_staff_labourers">Labourers</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_labourers_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_labourers_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_labourers_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_labourers_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_labourers_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_labourers_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_labourers_full_2" value="">
-                                    <label for="operational_staff_labourers_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_labourers_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_labourers_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_labourers_part_2" value="">
-                                    <label for="operational_staff_labourers_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_labourers_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_labourers_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="operational_staff_drivers">Drivers</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_drivers_full" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_drivers_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_drivers_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_drivers_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_drivers_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_drivers_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_drivers_full_2" value="">
-                                    <label for="operational_staff_drivers_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_drivers_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_drivers_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_drivers_part_2" value="">
-                                    <label for="operational_staff_drivers_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_drivers_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_drivers_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
-                            <div class="col-md-12">
-                                <label for="">Others:</label>
+                            <div class="col-md">
+                                <label for="other_operational_staff">Others:</label>
                             </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_operational_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="other_operational_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_operational_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="other_operational_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_operational_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="other_operational_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_operational_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="other_operational_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
                             <div class="col-md">
                                 <label for="operational_staff_associates">Associates</label>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_associates_full" value="">
+
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_associates_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_associates_full" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_associates_part" value="">
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
                                     <label for="operational_staff_associates_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_associates_part" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_associates_full_2" value="">
-                                    <label for="operational_staff_associates_full_2">Full Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_associates_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_associates_full_2" value="">
                                 </div>
                             </div>
-                            <div class="col-md">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="operational_staff_associates_part_2" value="">
-                                    <label for="operational_staff_associates_part_2">Part Time <span>(Site 2)</span></label>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_associates_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_associates_part_2" value="">
                                 </div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-md-12">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="grand_total" value="">
-                                    <label for="grand_total" class="col-form-label">Grand Total of employees’ full time and part time</label>
+                                <div class="div-number-inline">
+                                    <label for="grand_total_employees">Grand Total of employees’ full time and part time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <input type="number" class="form-control" id="grand_total_employees" value="">
+                                    <input type="text" class="form-control ms-3" id="grand_total_employees_text" value="">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <label for="state_the_number">State the number of personnel working on and offsite from the organisation’s premises.</label>
                             </div>
                             <div class="col-md-4">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="on_site" value="">
+                                <div class="div-number-inline">
                                     <label for="on_site" class="col-form-label">On Site</label>
+                                    <input type="number" class="form-control" id="on_site" value="">
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="off_site" value="">
+                                <div class="div-number-inline">
                                     <label for="off_site" class="col-form-label">Off Site</label>
+                                    <input type="number" class="form-control" id="off_site" value="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="div-checkbox">
-                                    <input type="checkbox" id="additional_comments" value="">
-                                    <label for="additional_comments" class="col-form-label">Additional Comments:</label>
-                                </div>
+                            <div class="col-md-12">
+                                <label for="additional_comments" class="col-form-label">Additional Comments:</label>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="additional_comments" id="additional_comments" class="form-control"></textarea>
                             </div>
                             <div class="col-md-12">
                                 <label for="subcontractors" class="col-form-label">Approx. number of subcontractors:</label>
@@ -1006,6 +1055,9 @@
                                     <label for="sanctions_act" class="col-form-label">Under The Sanctions Act, you declare that you and your company are not subject to a sanction </label>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_text" id="sanctions_act_text" class="form-control"></textarea>
+                            </div>
                         </div>
                         <div class="row g-3 align-items-center form-row">
                             <div class="col-md-12">
@@ -1014,9 +1066,12 @@
                                     <label for="sanctions_act_data" class="col-form-label">Under GDPR, we will retain your data for legitimate interest only, safely and securely. Please confirm your consent</label>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_data_text" id="sanctions_act_data_text" class="form-control"></textarea>
+                            </div>
                         </div>
                         <div class="row g-3 align-items-center form-row">
-                            <div class="alert alert-info text-center">When completed, please send this form to Forefront Certification Limited, Basepoint Business Centre, Isidore Road, Bromsgrove Enterprise Park, Bromsgrove, B60 3ET Tel: 01527 917980; Web: www.ffcert.com, email info@ffcert.com </div>
+                            <div class="alert alert-info text-center">When completed, please send this form to Forefront Certification Limited, Basepoint Business Centre, Isidore Road, Bromsgrove Enterprise Park, Bromsgrove, B60 3ET Tel: 01527 917980; Web: www.ffcert.com, email info@ffcert.com.</div>
                         </div>
                         <div class="row g-3 align-items-center form-row">
                             <div class="col-md-12 text-center p-3">
@@ -1025,7 +1080,1140 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="iso-iec-27001" role="tabpanel" aria-labelledby="iso-iec-27001-tab">2</div>
-                    <div class="tab-pane fade" id="iso-50001" role="tabpanel" aria-labelledby="iso-50001-tab">3</div>
+                    <div class="tab-pane fade" id="iso-50001" role="tabpanel" aria-labelledby="iso-50001-tab">
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-3">
+                                <label for="company_name" class="col-form-label">Company Name:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="company_name" class="form-control" name="company_name">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_phone" class="col-form-label">Company Phone:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="company_phone" class="form-control" name="company_phone">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_email" class="col-form-label">Company Email:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="email" id="company_email" class="form-control" name="company_email">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="activities" class="col-form-label">Scope: Please describe what activities your organisation carries out:</label>
+                                <input type="text" id="activities" class="form-control" name="activities">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="main_address" class="col-form-label">Detail main address to be stated on the certificate of registration. <span>(If more than one site, state details below)</span></label>
+                                <textarea name="main_address" id="main_address" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="multiple_sites" class="col-form-label">If multiple sites, please indicate location and employee numbers:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="multiple_sites_one" class="col-form-label">Site 1 :</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="multiple_sites_one" class="form-control" name="multiple_sites_one">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="multiple_sites_two" class="col-form-label">Site 2 :</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="multiple_sites_two" class="form-control" name="multiple_sites_two">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="multisite" class="col-form-label">Are you a multisite with a central function Y/N? <span>(If yes, additional supplement will be sent for further information)</span></label>
+                                <textarea name="multisite" id="multisite" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_system" class="col-form-label">Type of management system:</label>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="single_management" value="">
+                                    <label for="single_management">Single <span>(e.g., ISO 9001 only)</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="integrated_management" value="">
+                                    <label for="integrated_management">Integrated <span>(e.g., One system including other standards, e.g., ISO 9001, ISO 14001)</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="other_standards" class="col-form-label">Specify other standards: </label>
+                                <textarea name="other_standards" id="other_standards" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_system_applicable" class="col-form-label">The extent to which the management system is integrated (as applicable):</label>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_documentation" class="col-form-label">An integrated documentation set, including work instructions to a good level of development, as appropriate</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_documentation" value="">
+                                            <label for="fully_integrated_documentation">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_documentation" value="">
+                                            <label for="partially_integrated_documentation">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_approach" class="col-form-label">An integrated approach to internal audits.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_approach" value="">
+                                            <label for="fully_integrated_approach">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_approach" value="">
+                                            <label for="partially_integrated_approach">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_policy" class="col-form-label">An integrated approach to policy and objectives.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_policy" value="">
+                                            <label for="fully_integrated_policy">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_policy" value="">
+                                            <label for="partially_integrated_policy">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_systems" class="col-form-label">An integrated approach to systems processes.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_systems" value="">
+                                            <label for="fully_integrated_systems">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_systems" value="">
+                                            <label for="partially_integrated_systems">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_improvement" class="col-form-label">An integrated approach to improvement mechanisms, (corrective and preventive action measurement and continual Improvement).</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_improvement" value="">
+                                            <label for="fully_integrated_improvement">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_improvement" value="">
+                                            <label for="partially_integrated_improvement">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_support" class="col-form-label">Integrated management support and responsibilities.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_support" value="">
+                                            <label for="fully_integrated_support">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_support" value="">
+                                            <label for="partially_integrated_support">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_reviews" class="col-form-label">Management Reviews that consider the overall business strategy and plan.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_reviews" value="">
+                                            <label for="fully_integrated_reviews">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_reviews" value="">
+                                            <label for="partially_integrated_reviews">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="identify_annual_energy" class="col-form-label">Please identify the annual energy consumption by type:</label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="energy_source" class="col-form-label">Energy source (e.g. gas, diesel)</label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="number_of_units" class="col-form-label">Number of units</label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="measurement_unit" class="col-form-label">Measurement Unit (e.g.kWh)</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="energy_source" id="energy_source" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="number_of_units" id="number_of_units" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="measurement_unit" id="measurement_unit" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="energy_source_1" id="energy_source_1" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="number_of_units_1" id="number_of_units_1" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="measurement_unit_1" id="measurement_unit_1" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="energy_source_2" id="energy_source_2" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="number_of_units_2" id="number_of_units_2" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="measurement_unit_2" id="measurement_unit_2" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="energy_source_3" id="energy_source_3" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="number_of_units_3" id="number_of_units_3" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="measurement_unit_3" id="measurement_unit_3" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="energy_source_4" id="energy_source_4" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="number_of_units_4" id="number_of_units_4" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" name="measurement_unit_4" id="measurement_unit_4" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="identify_energy_types" class="col-form-label">Please identify the number of energy types and detail those that account for 80% of the total energy consumption e.g., electricity, gas, LPG, diesel, coal, biomass:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_1" class="col-form-label">Energy type:</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_1" id="energy_type_1" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_1_use" class="col-form-label">% of overall energy use</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_1_use" id="energy_type_1_use" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_2" class="col-form-label">Energy type:</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_2" id="energy_type_2" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_2_use" class="col-form-label">% of overall energy use</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_2_use" id="energy_type_2_use" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_3" class="col-form-label">Energy type:</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_3" id="energy_type_3" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_3_use" class="col-form-label">% of overall energy use</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_3_use" id="energy_type_3_use" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_4" class="col-form-label">Energy type:</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_4" id="energy_type_4" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_4_use" class="col-form-label">% of overall energy use</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_4_use" id="energy_type_4_use" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_5" class="col-form-label">Energy type:</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_5" id="energy_type_5" class="form-control">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="energy_type_5_use" class="col-form-label">% of overall energy use</label>
+                            </div>
+                            <div class="col-md-3 p-0">
+                                <input type="text" name="energy_type_5_use" id="energy_type_5_use" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="identify_large_proportion" class="col-form-label">Please identify the number and type of significant energy uses that represent a large proportion of the energy consumption of the organisations facilities, equipment, systems or processes:</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="significant_energy" class="col-form-label">Type of significant energy uses: (e.g. compressed air, boilers, chillers):</label>
+                                <input type="text" name="significant_energy" id="significant_energy" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="num_significant_energy" class="col-form-label">Number of significant energy uses:</label>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="num_significant_energy_1-3" value="">
+                                    <label for="num_significant_energy_1-3">1 - 3</label>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="num_significant_energy_4-6" value="">
+                                    <label for="num_significant_energy_4-6">4 - 6</label>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="num_significant_energy_7-10" value="">
+                                    <label for="num_significant_energy_7-10">7 - 10</label>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="num_significant_energy_11-15" value="">
+                                    <label for="num_significant_energy_11-15">11 - 15</label>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="num_significant_energy_16" value="">
+                                    <label for="num_significant_energy_16">> 16</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="energy_regulations" class="col-form-label">Energy regulations applicable to the organisation:</label>
+                                <textarea name="energy_regulations" id="energy_regulations" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-4">
+                                <label for="contact_name" class="col-form-label">Contact Name (including title):</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="contact_name" class="form-control" name="contact_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="position" class="col-form-label">Position:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="position" class="form-control" name="position">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="telephone" class="col-form-label">Telephone:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="telephone" class="form-control" name="telephone">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="email" class="col-form-label">E-mail:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="website" class="col-form-label">Website:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="website" class="form-control" name="website">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="sector" class="col-form-label">Sector:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="sector" class="form-control" name="sector">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="main_language" class="col-form-label">Main Language:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="main_language" class="form-control" name="main_language">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="date" class="col-form-label">Date:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="date" class="form-control" name="date">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="hear_about_us" class="col-form-label">How did you hear about us?</label>
+                                <textarea name="hear_about_us" id="hear_about_us" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-4">
+                                <label for="consultant_name" class="col-form-label">Consultant Name (as applicable):</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="consultant_name" class="form-control" name="consultant_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="business_name" class="col-form-label">Business Name:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="business_name" class="form-control" name="business_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="business_website" class="col-form-label">Website:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="business_website" class="form-control" name="business_website">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="third_party_registrations" class="col-form-label">Do you hold any other third-party registrations? If so, please give details:</label>
+                                <textarea name="third_party_registrations" id="third_party_registrations" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="application_option" class="col-form-label">Type of application (please select from the following options):</label>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_new" value="">
+                                    <label for="application_option_new">New</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_renewal" value="">
+                                    <label for="application_option_renewal">Renewal</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_extension" value="">
+                                    <label for="application_option_extension">Scope Extension</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_transfer" value="">
+                                    <label for="application_option_transfer">Transfer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="ready_stage" class="col-form-label">When will you be ready for a Stage one review?</label>
+                                <input type="text" name="ready_stage" id="ready_stage" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="number_of_employees" class="col-form-label">Please specify the number of employees on each shift and the shift hours:</label>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="day_shift">Day Shift</label>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="day_shift_hours">Shift hours:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="day_shift" id="day_shift" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="day_shift_employees">No. of employees:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="day_shift_employees" id="day_shift_employees" class="form-control">
+                            </div>
+
+                            <div class="col-md-2">
+                                <label for="afternoon_shift">Afternoon Shift</label>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="afternoon_shift_hours">Shift hours:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="afternoon_shift" id="afternoon_shift" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="afternoon_shift_employees">No. of employees:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="afternoon_shift_employees" id="afternoon_shift_employees" class="form-control">
+                            </div>
+
+                            <div class="col-md-2">
+                                <label for="night_shift">Night Shift</label>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="night_shift_hours">Shift hours:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="night_shift" id="night_shift" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="night_shift_employees">No. of employees:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" name="night_shift_employees" id="night_shift_employees" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="number_of_employees" class="col-form-label">Please list the number of employees in each area/site (please use additional sheets if required)</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="senior_management_employees">Senior Management</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_full">Full Time</label>
+                                    <input type="number" id="senior_management_employees_full" value="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_part">Part Time</label>
+                                    <input type="number" class="form-control" id="senior_management_employees_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="senior_management_employees_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="senior_management_employees_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="senior_management_employees_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="senior_management_employees_shifts_2">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="senior_management_employees_shifts_2" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+
+                            <div class="col-md-12">
+                                <label for="operational_staff">Operational staff</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="operational_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="operational_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="operational_staff_shifts_2">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="operational_staff_shifts_2" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="administration_staff">Administration staff</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="administration_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="administration_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="administration_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="administration_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="administration_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="administration_staff_shifts">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="administration_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="maintenance_staff">Maintenance staff</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="maintenance_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="maintenance_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="maintenance_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="maintenance_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="maintenance_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_shifts">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="maintenance_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="facility_staff">Facility management</label>
+                            </div>
+                            <div class="col-md">
+                                <div class="div-number-inline">
+                                    <label for="facility_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="facility_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="facility_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="facility_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="facility_staff_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="facility_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="facility_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="facility_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="facility_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="facility_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="maintenance_staff_shifts">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="maintenance_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="enms_staff">EnMS management representatives</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_full">Full Time</label>
+                                    <input type="number" class="form-control" id="enms_staff_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_part">Part Time</label>
+                                    <input type="number" class="form-control" id="enms_staff_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="enms_staff_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="enms_staff_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="enms_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="enms_staff_part_2">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="enms_staff_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="other">Other</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_full">Full Time</label>
+                                    <input type="number" class="form-control" id="other_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_part">Part Time</label>
+                                    <input type="number" class="form-control" id="other_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="other_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="other_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="other_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="other_shifts">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="other_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-12">
+                                <label for="other">Total Employees</label>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_full">Full Time</label>
+                                    <input type="number" class="form-control" id="total_employees_full" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_part">Part Time</label>
+                                    <input type="number" class="form-control" id="total_employees_part" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_shifts">Shifts</label>
+                                    <input type="number" class="form-control" id="total_employees_shifts" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_full_2">Full Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="total_employees_full_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_part_2">Part Time <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="total_employees_part_2" value="">
+                                </div>
+                            </div>
+                            <div class="col-md pe-0">
+                                <div class="div-number-inline">
+                                    <label for="total_employees_shifts">Shifts <span>(2)</span></label>
+                                    <input type="number" class="form-control" id="total_employees_shifts" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="grand_total_employees">Grand Total of employees’ full time and part time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <input type="number" class="form-control" id="grand_total_employees" value="">
+                                    <input type="text" class="form-control ms-3" id="grand_total_employees_text" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="no_contractors">No. of contractors or external service providers. <span>Those who either affect energy performance or affect energy performance improvement. E.g., external maintenance.</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <input type="number" class="form-control" name="no_contractors" id="no_contractors" value="">
+                                    <input type="text" class="form-control ms-3" name="no_contractors_text" id="no_contractors_text" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="no_contractors">Number of EnMS effective personnel on site <span>(Personnel responsible for multiple roles, such as design and purchasing, should only be counted as one person).</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="top_management">Top management</label>
+                                    <input type="number" class="form-control" name="top_management" id="top_management">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="energy_management">The energy management team</label>
+                                    <input type="number" class="form-control" name="energy_management" id="energy_management">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="responsible_procurement">The person(s) responsible for procurement related to energy performance</label>
+                                    <input type="number" class="form-control" name="responsible_procurement" id="responsible_procurement">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="responsible_procurement_performance">The person(s) responsible for making major changes that affect energy performance</label>
+                                    <input type="number" class="form-control" name="responsible_procurement_performance" id="responsible_procurement_performance">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="performance_improvements">The person(s) responsible for developing, implementing or maintaining energy  performance improvements, including objectives, energy targets and action plans</label>
+                                    <input type="number" class="form-control" name="performance_improvements" id="performance_improvements">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="energy_data">The person(s) responsible for developing and maintaining energy data and analysis</label>
+                                    <input type="number" class="form-control" name="energy_data" id="energy_data">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="seasonal_operations">The person(s) responsible for planning, operating and maintaining the processes related to the Significant energy uses (SEUs) including during seasonal operations (e.g. harvesting activities, hotels) as appropriate</label>
+                                    <input type="number" class="form-control" name="seasonal_operations" id="seasonal_operations">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-number-inline">
+                                    <label for="energy_performance">The person(s) responsible for design which affects energy performance</label>
+                                    <input type="number" class="form-control" name="energy_performance" id="energy_performance">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="business_relationships" class="col-form-label">Do you have business relationships (customers, suppliers) in any sanctioned countries?<span>https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases</span></label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="business_relationships_yes" value="">
+                                    <label for="business_relationships_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="business_relationships_no" value="">
+                                    <label for="business_relationships_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="business_relationships_yes_if" id="business_relationships_yes_if" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="elaborate_on_how" class="col-form-label">If yes, elaborate on how you ensure compliance with applicable sanctions laws or requirements:</label>
+                                <textarea name="elaborate_on_how" id="elaborate_on_how" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="politically_exposed" class="col-form-label">Are there any Politically Exposed Persons (PEPs) in the company ownership structure?<span>E.g., board members or executives of international organisations, bank governors, senior government executives</span></label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="politically_exposed_yes" value="">
+                                    <label for="politically_exposed_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="politically_exposed_no" value="">
+                                    <label for="politically_exposed_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="politically_exposed_yes_if" id="politically_exposed_yes_if" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="provide_role" class="col-form-label">If yes, please provide: Role, Name, Nationality, Date of birth):</label>
+                                <input type="text" name="provide_role" id="provide_role" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="company_owned" class="col-form-label">Is the company owned or controlled by a sanctions target? <span>Notes: ” Sanctions target” refers to individuals or entities that have economic sanctions imposed on them. “Owned or controlled by a sanctions target” E.g.  where a sanctions target has:<br>(1) Greater than 50% of the company ownership.<br>(2) Board members.<br>(3) voting rights; and/or <br>(4) Executive post, e.g., Chairman of the board, Chief Executive Officer (CEO)</span></label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_owned_yes" value="">
+                                    <label for="company_owned_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_owned_no" value="">
+                                    <label for="company_owned_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="company_owned_yes_if" id="company_owned_yes_if" class="form-control" placeholder="Details:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="provide_role_2" class="col-form-label">If yes, please provide: Role, Name, Nationality, Date of birth):</label>
+                                <input type="text" name="provide_role_2" id="provide_role_2" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="board_of_directors" class="col-form-label">Please provide the names(s) of the Board of Directors:</label>
+                                <input type="text" name="board_of_directors" id="board_of_directors" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="individuals_directly" class="col-form-label">Please provide name(s) of individuals who directly or indirectly own/control at least 25% of the company:</label>
+                                <input type="text" name="individuals_directly" id="individuals_directly" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="company_part" class="col-form-label">Is the company part of a group structure?</label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_part_yes" value="">
+                                    <label for="company_part_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_part_no" value="">
+                                    <label for="company_part_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="company_part_yes_if" id="company_part_yes_if" class="form-control" placeholder="Details:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="individuals_directly" class="col-form-label">If yes, please provide details of headquarters: </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="individuals_directly_name">Name</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="individuals_directly_name" id="individuals_directly_name" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="individuals_directly_country">Country</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="individuals_directly_country" id="individuals_directly_country" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="sanctions_act" value="">
+                                    <label for="sanctions_act" class="col-form-label">Under The Sanctions Act, you declare that you and your company are not subject to a sanction </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_text" id="sanctions_act_text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="sanctions_act_data" value="">
+                                    <label for="sanctions_act_data" class="col-form-label">Under GDPR, we will retain your data for legitimate interest only, safely and securely. Please confirm your consent</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_data_text" id="sanctions_act_data_text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="alert alert-info text-center">When completed, please send this form to Forefront Certification Limited, Basepoint Business Centre, Isidore Road, Bromsgrove Enterprise Park, Bromsgrove, B60 3ET Tel: 01527 917980; Web: www.ffcert.com, email info@ffcert.com.</div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12 text-center p-3">
+                                <button class="btn btn-orange">Submit Application Form</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -188,3 +188,30 @@
     border-color: #f25900;
     color: #f25900;
 }
+
+.form-track {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-track input{
+    background-color: white;
+    color: black;
+}
+
+.form-track button {
+    background-color: #373435;
+    color: white;
+    border-radius: 0;
+    border-color: white;
+}
+
+.div-number-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-number-inline input[type=number] {
+    width: 45px;
+}
