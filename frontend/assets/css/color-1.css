@@ -1,2 +1,26 @@
+.search-page-form {
+    margin-top: 20px;
+}
 
+.search-page-form button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 25px;
+}
+
+.alert-red{
+    background-color: #dc3545;
+}
+
+.alert-red * {
+    color: white !important;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #dee2e6 !important;
+}
+
+.select2-container--default .select2-selection--multiple{
+    border-color: #dee2e6 !important;
+}
 /*# sourceMappingURL=color-1.css.map */

@@ -5,7 +5,7 @@
 .logo {
     text-align: center;
     margin-top: 13px;
-    background-color: #f25900;
+    background-color: white;
     padding: 13px;
 }
 
@@ -16,7 +16,7 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 15px;
-    color: white;
+    color: black;
 }
 
 @media (min-width: 1400px) {
@@ -48,7 +48,7 @@
 
 .application-form-wrapper input{
     border-radius: 0;
-    background-color: #f2590038;
+    background-color: #ababab33;
     height: 35px;
     color: black;
     font-size: 14px;
@@ -119,7 +119,7 @@
 
 .application-form-wrapper textarea{
     border-radius: 0;
-    background-color: #f2590038;
+    background-color: #ababab33;
     color: black;
     font-size: 14px;
 }
@@ -200,7 +200,7 @@
 }
 
 .form-track button {
-    background-color: #f2590038;
+    background-color: #f25900;
     color: white;
     border-radius: 0;
     border-color: white;

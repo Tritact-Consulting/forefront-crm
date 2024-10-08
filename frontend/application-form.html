@@ -20,12 +20,6 @@
     </head>
     <body>
         <div class="application-form-wrapper">
-            <div class="logo-left">
-                <img src="assets/images/logo/ForeFront.gif" alt="">
-            </div>
-            <div class="logo-bottom logo-left">
-                <img src="assets/images/logo/ForeFront.gif" alt="">
-            </div>
             <div class="container">
                 <div class="row mb-3">   
                     <div class="col-md-12">
@@ -1079,7 +1073,768 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="iso-iec-27001" role="tabpanel" aria-labelledby="iso-iec-27001-tab">2</div>
+                    <div class="tab-pane fade" id="iso-iec-27001" role="tabpanel" aria-labelledby="iso-iec-27001-tab">
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-3">
+                                <label for="company_name" class="col-form-label">Company Name:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="company_name" class="form-control" name="company_name">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_phone" class="col-form-label">Company Phone:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="text" id="company_phone" class="form-control" name="company_phone">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="company_email" class="col-form-label">Company Email:</label>
+                            </div>
+                            <div class="col-md-9 p-0">
+                                <input type="email" id="company_email" class="form-control" name="company_email">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="iso_27001" value="">
+                                    <label for="iso_27001">ISO/IEC 27001:2022</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="iso_27001_transfers" value="">
+                                    <label for="iso_27001_transfers">ISO/IEC 27001:2013 (Certification Transfers Only)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="activities" class="col-form-label">Scope: Please describe what activities your organisation carries out:</label>
+                                <input type="text" id="activities" class="form-control" name="activities">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="legal_certificate" class="col-form-label">Detail legal address to be stated on the certificate of registration.</label>
+                                <input type="text" id="legal_certificate" class="form-control" name="legal_certificate">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="multiple_sites" class="col-form-label">Are there multiple sites to be certified Y/N? If yes, how many? <span>(Additional supplement will be sent for further information)</span></label>
+                                <input type="text" id="multiple_sites" class="form-control" name="multiple_sites">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="centrally_administered" class="col-form-label">Is there one ISMS which is centrally administered and audited and subject to a central management review, Y/N?</label>
+                                <input type="text" id="centrally_administered" class="form-control" name="centrally_administered">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="internal_isms" class="col-form-label">Are all sites included within the internal ISMS audit programme, Y/N?</label>
+                                <input type="text" id="internal_isms" class="form-control" name="internal_isms">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_review" class="col-form-label">Are all sites included within the ISMS management review plan, Y/N?</label>
+                                <input type="text" id="management_review" class="form-control" name="management_review">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="activities_premises" class="col-form-label">If the company’s activities are all remote, with no premises or onsite working, please indicate so here</label>
+                                <input type="text" id="activities_premises" class="form-control" name="activities_premises">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="activities_conducted" class="col-form-label">If there are any activities conducted that are partially remote, please state the percentage.</label>
+                                <input type="text" id="activities_conducted" class="form-control" name="activities_conducted">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="remote_activities" class="col-form-label">If the above applies, briefly describe the remote activities:</label>
+                                <input type="text" id="remote_activities" class="form-control" name="remote_activities">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_system" class="col-form-label">Type of management system:</label>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="single_management" value="">
+                                    <label for="single_management">Single <span>(e.g., ISO 9001 only)</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="integrated_management" value="">
+                                    <label for="integrated_management">Integrated <span>(e.g., One system including other standards, e.g., ISO 9001, ISO 14001)</span></label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="other_standards" class="col-form-label">Specify other standards: </label>
+                                <textarea name="other_standards" id="other_standards" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_system_applicable" class="col-form-label">The extent to which the management system is integrated (as applicable):</label>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_documentation" class="col-form-label">An integrated documentation set, including work instructions to a good level of development, as appropriate</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_documentation" value="">
+                                            <label for="fully_integrated_documentation">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_documentation" value="">
+                                            <label for="partially_integrated_documentation">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_approach" class="col-form-label">An integrated approach to internal audits.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_approach" value="">
+                                            <label for="fully_integrated_approach">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_approach" value="">
+                                            <label for="partially_integrated_approach">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_policy" class="col-form-label">An integrated approach to policy and objectives.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_policy" value="">
+                                            <label for="fully_integrated_policy">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_policy" value="">
+                                            <label for="partially_integrated_policy">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_systems" class="col-form-label">An integrated approach to systems processes.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_systems" value="">
+                                            <label for="fully_integrated_systems">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_systems" value="">
+                                            <label for="partially_integrated_systems">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_improvement" class="col-form-label">An integrated approach to improvement mechanisms, (corrective and preventive action measurement and continual Improvement).</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_improvement" value="">
+                                            <label for="fully_integrated_improvement">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_improvement" value="">
+                                            <label for="partially_integrated_improvement">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_support" class="col-form-label">Integrated management support and responsibilities.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_support" value="">
+                                            <label for="fully_integrated_support">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_support" value="">
+                                            <label for="partially_integrated_support">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-7">
+                                <label for="integrated_reviews" class="col-form-label">Management Reviews that consider the overall business strategy and plan.</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="fully_integrated_reviews" value="">
+                                            <label for="fully_integrated_reviews">Fully Integrated</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 no-border">
+                                        <div class="div-checkbox">
+                                            <input type="checkbox" id="partially_integrated_reviews" value="">
+                                            <label for="partially_integrated_reviews">Partially Integrated </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-4">
+                                <label for="contact_name" class="col-form-label">Contact Name (including title):</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="contact_name" class="form-control" name="contact_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="position" class="col-form-label">Position:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="position" class="form-control" name="position">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="telephone" class="col-form-label">Telephone:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="telephone" class="form-control" name="telephone">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="email" class="col-form-label">E-mail:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="website" class="col-form-label">Website:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="website" class="form-control" name="website">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="sector" class="col-form-label">Sector:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="sector" class="form-control" name="sector">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="main_language" class="col-form-label">Main Language:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="main_language" class="form-control" name="main_language">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="date" class="col-form-label">Date:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="date" class="form-control" name="date">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="hear_about_us" class="col-form-label">How did you hear about us?</label>
+                                <textarea name="hear_about_us" id="hear_about_us" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-4">
+                                <label for="consultant_name" class="col-form-label">Consultant Name (as applicable):</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="consultant_name" class="form-control" name="consultant_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="business_name" class="col-form-label">Business Name:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="business_name" class="form-control" name="business_name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="business_website" class="col-form-label">Website:</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" id="business_website" class="form-control" name="business_website">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="third_party_registrations" class="col-form-label">Do you hold any other third-party registrations? If so, please give details:</label>
+                                <textarea name="third_party_registrations" id="third_party_registrations" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="application_option" class="col-form-label">Type of application (please select from the following options):</label>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_new" value="">
+                                    <label for="application_option_new">New</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_renewal" value="">
+                                    <label for="application_option_renewal">Renewal</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_extension" value="">
+                                    <label for="application_option_extension">Scope Extension</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="application_option_transfer" value="">
+                                    <label for="application_option_transfer">Transfer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="ready_stage" class="col-form-label">When will you be ready for a Stage one review?</label>
+                                <input type="text" name="ready_stage" id="ready_stage" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="number_of_employees" class="col-form-label">Please specify the number of employees on each shift and the shift hours:</label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="day_shift">Day Shift (Shift hours)</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="day_shift" id="day_shift" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="afternoon_shift">Afternoon Shift (Shift hours)</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="afternoon_shift" id="afternoon_shift" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="night_shift">Night Shift (Shift hours)</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="night_shift" id="night_shift" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="number_persons" class="col-form-label">Total number of persons doing work under the organisation’s control: <span>Includes all personnel (regardless of whether they are members of the organisation or not) within the scope of the certification who are required to work according to the requirements of the ISMS.</span></label>
+                                <textarea name="number_persons" id="number_persons" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="subcontractors_type" class="col-form-label">Do you conduct any work at customer locations? <span>(E.g.  Project management sites, service/installation sites)</span></label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="conduct_work_yes" value="">
+                                    <label for="conduct_work_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="conduct_work_no" value="">
+                                    <label for="conduct_work_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="conduct_work_yes_if" id="conduct_work_yes_if" class="form-control" placeholder="If yes, state details:">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="clients_site" class="col-form-label">What activities are performed at the locations? <span>Risk level (H/M/L):</span></label>
+                                <input type="text" name="clients_site" id="clients_site" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="clients_site" class="col-form-label">% of work carried out at Clients Site:</label>
+                                <input type="text" name="clients_site" id="clients_site" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="activities_outsourced" class="col-form-label">Are there any activities that are outsourced or subcontracted in the scope of the ISMS?</label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="activities_outsourced_yes" value="">
+                                    <label for="activities_outsourced_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="activities_outsourced_no" value="">
+                                    <label for="activities_outsourced_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="activities_outsourced_yes_if" id="conduct_work_yes_if" class="form-control" placeholder="If yes, state details:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="management_system" class="col-form-label">ISO 27001 Complexity Evaluation <span>List the legal and regulatory requirements and indicate the risk level:</span></label>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="27001_evaluation_high" value="">
+                                    <label for="27001_evaluation_high">High</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="27001_evaluation_medium" value="">
+                                    <label for="27001_evaluation_medium">Medium</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="27001_evaluation_low" value="">
+                                    <label for="27001_evaluation_low">Low</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="27001_evaluation" id="27001_evaluation" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="organisation_activities" class="col-form-label">Which best describes your organisation’s activities?</label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="work_non_critical" value="">
+                                    <label for="work_non_critical" class="col-form-label">Work in non-critical business sectors and non-regulated sectors</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="critical_business" value="">
+                                    <label for="ssip_approved_principal" class="col-form-label">Have customers in critical business sectors</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="work_critical_business" value="">
+                                    <label for="work_critical_business" class="col-form-label">Work critical business sectors</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="ssip_approved_principal_Designer" class="col-form-label">(Critical business sectors are sectors that may affect critical public services that will cause risk to health, security, economy, image and government ability to function that may have a very large negative impact to the country)</label>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="organisation_processes" class="col-form-label">Which best describes your organisation’s processes and tasks? </label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="standard_processes" value="">
+                                    <label for="standard_processes" class="col-form-label">Standard processes with standard and repetitive tasks; lots of persons doing work under the organization's control carrying out the same tasks; few products or services</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="standard_non_repetitive" value="">
+                                    <label for="standard_non_repetitive" class="col-form-label">Standard but non-repetitive processes, with high number of products or services</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="complex_processes" value="">
+                                    <label for="complex_processes" class="col-form-label">Complex processes, high number of products and services, many business units included in the scope of certification <span>(ISMS covers highly complex processes or relatively high number or unique activities)</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="infrastructure_complexity" class="col-form-label">Which best describes your IT infrastructure complexity? </label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="highly_standardized" value="">
+                                    <label for="highly_standardized" class="col-form-label">Few or highly standardized IT platforms, servers, operating systems, databases, networks, etc.</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="different_it_platforms" value="">
+                                    <label for="different_it_platforms" class="col-form-label">Several different IT platforms, servers, operating systems, databases, networks</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="many_different_it_platforms" value="">
+                                    <label for="many_different_it_platforms" class="col-form-label">Many different IT platforms, servers, operating systems, databases, networks)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="dependency_outsourcing" class="col-form-label">What is your dependency on outsourcing and suppliers, including cloud service?</label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="no_dependency" value="">
+                                    <label for="no_dependency" class="col-form-label">Little or no dependency on outsourcing or suppliers.</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="some_dependency" value="">
+                                    <label for="some_dependency" class="col-form-label">Some dependency on outsourcing or suppliers, related to some but not all important business activities</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="high_dependency" value="">
+                                    <label for="high_dependency" class="col-form-label">High dependency on outsourcing or suppliers, large impact on important business activities</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="extent_information_system" class="col-form-label">What is the extent of your Information System development?</label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="limited_in_house" value="">
+                                    <label for="limited_in_house" class="col-form-label">None or a very limited in-house system/application development</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="some_in_house" value="">
+                                    <label for="some_in_house" class="col-form-label">Some in-house or outsourced systems/application development for some important business purposes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="extensive_in_house" value="">
+                                    <label for="extensive_in_house" class="col-form-label">Extensive in-house or outsourced systems/application development for important business purposes</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="any_control_sets" value="">
+                                    <label for="any_control_sets" class="col-form-label">We understand that any control sets applied in the SoA used for referencing the relevance of the inclusion or exclusion of controls will not be included on certificates or any related documents.</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="isms_related_information" class="col-form-label">Is there any ISMS related information (such as ISMS records or information about design and effectiveness of controls) cannot be made available for review by the audit team because it contains confidential or sensitive information?</label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="isms_related_information_yes" value="">
+                                    <label for="isms_related_information_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="isms_related_information_no" value="">
+                                    <label for="isms_related_information_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="isms_related_information_yes_if" id="company_owned_yes_if" class="form-control" placeholder="If yes, comment:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="business_relationships" value="">
+                                    <label for="business_relationships" class="col-form-label">Do you have business relationships (customers, suppliers) in any sanctioned countries?<span>https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="elaborate_how" class="col-form-label">If yes, elaborate on how you ensure compliance with applicable sanctions laws or requirements:</label>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="elaborate_how" id="elaborate_how" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="politically_exposed" value="">
+                                    <label for="politically_exposed" class="col-form-label">Are there any Politically Exposed Persons (PEPs) in the company ownership structure?<span>E.g., board members or executives of international organisations, bank governors, senior government executives</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="provide_role" class="col-form-label">If yes, please provide: Role, Name, Nationality, Date of birth):</label>
+                                <input type="text" name="provide_role" id="provide_role" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="company_owned" class="col-form-label">Is the company owned or controlled by a sanctions target? <span>Notes: ” Sanctions target” refers to individuals or entities that have economic sanctions imposed on them. “Owned or controlled by a sanctions target” E.g.  where a sanctions target has:<br>(1) Greater than 50% of the company ownership.<br>(2) Board members.<br>(3) voting rights; and/or <br>(4) Executive post, e.g., Chairman of the board, Chief Executive Officer (CEO)</span></label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_owned_yes" value="">
+                                    <label for="company_owned_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_owned_no" value="">
+                                    <label for="company_owned_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="company_owned_yes_if" id="company_owned_yes_if" class="form-control" placeholder="Details:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="provide_role_2" class="col-form-label">If yes, please provide: Role, Name, Nationality, Date of birth):</label>
+                                <input type="text" name="provide_role_2" id="provide_role_2" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="board_of_directors" class="col-form-label">Please provide the names(s) of the Board of Directors:</label>
+                                <input type="text" name="board_of_directors" id="board_of_directors" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="individuals_directly" class="col-form-label">Please provide name(s) of individuals who directly or indirectly own/control at least 25% of the company:</label>
+                                <input type="text" name="individuals_directly" id="individuals_directly" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="company_part" class="col-form-label">Is the company part of a group structure?</label>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_part_yes" value="">
+                                    <label for="company_part_yes" class="col-form-label">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="company_part_no" value="">
+                                    <label for="company_part_no" class="col-form-label">No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="company_part_yes_if" id="company_part_yes_if" class="form-control" placeholder="Details:">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <label for="individuals_directly" class="col-form-label">If yes, please provide details of headquarters: </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="individuals_directly_name">Name</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="individuals_directly_name" id="individuals_directly_name" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="individuals_directly_country">Country</label>
+                            </div>
+                            <div class="col-md-8 p-0">
+                                <input type="text" name="individuals_directly_country" id="individuals_directly_country" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="sanctions_act" value="">
+                                    <label for="sanctions_act" class="col-form-label">Under The Sanctions Act, you declare that you and your company are not subject to a sanction </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_text" id="sanctions_act_text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12">
+                                <div class="div-checkbox">
+                                    <input type="checkbox" id="sanctions_act_data" value="">
+                                    <label for="sanctions_act_data" class="col-form-label">Under GDPR, we will retain your data for legitimate interest only, safely and securely. Please confirm your consent</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="sanctions_act_data_text" id="sanctions_act_data_text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="alert alert-info text-center">When completed, please send this form to Forefront Certification Limited, Basepoint Business Centre, Isidore Road, Bromsgrove Enterprise Park, Bromsgrove, B60 3ET Tel: 01527 917980; Web: www.ffcert.com, email info@ffcert.com.</div>
+                        </div>
+                        <div class="row g-3 align-items-center form-row">
+                            <div class="col-md-12 text-center p-3">
+                                <button class="btn btn-orange">Submit Application Form</button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="iso-50001" role="tabpanel" aria-labelledby="iso-50001-tab">
                         <div class="row g-3 align-items-center form-row">
                             <div class="col-md-3">
