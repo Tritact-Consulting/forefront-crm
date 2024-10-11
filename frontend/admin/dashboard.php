@@ -285,7 +285,7 @@
                                             <div class="card-header card-no-border total-revenue">
                                                 <h4 class="m-0">Clients</h4>
                                                 <div class="header-top"></div>
-                                                <a href="#">View All </a>
+                                                <a href="active-clients.php">View All </a>
                                             </div>
                                             <div class="card-body pt-0">
                                                 <div class="project-table table-responsive custom-scrollbar">
