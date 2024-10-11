@@ -49681,3 +49681,10 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
   5.9 Box-layout CSS Ends
 ==========================**/
 /*# sourceMappingURL=style.css.map */
+
+
+.heading-form-label {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+}

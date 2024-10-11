@@ -357,7 +357,7 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li><a href="#">Active Clients</a></li>
-                                        <li><a href="#">Potential Clients</a></li>
+                                        <li><a href="potential-clients.php">Potential Clients</a></li>
                                     </ul>
                                 </li>
                                 <li class="sidebar-list">
