@@ -318,16 +318,9 @@
                                                                     <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Pending</span></div>
                                                                 </td>
                                                                 <td>
-                                                                    <div class="product-sub">
-                                                                        <div class="dropdown">
-                                                                            <div id="dropdownMenuButtonicon11" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                                                                                <svg class="invoice-icon">
-                                                                                    <use href="../assets/svg/icon-sprite.svg#more-horizontal"></use>
-                                                                                </svg>
-                                                                            </div>
-                                                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonicon11"><span class="dropdown-item">Last Month</span><span class="dropdown-item">Last Week</span><span class="dropdown-item">Last Day </span></div>
-                                                                        </div>
-                                                                    </div>
+                                                                    <ul class="action px-5">
+                                                                        <li class="edit"> <a href="potential-clients.php"><i class="fa fa-eye"></i></a></li>
+                                                                    </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -348,16 +341,9 @@
                                                                     <div class="txt-primary d-flex align-items-center"><span class="pending bg-primary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
                                                                 </td>
                                                                 <td>
-                                                                    <div class="product-sub">
-                                                                        <div class="dropdown">
-                                                                            <div id="dropdownMenuButtonicon12" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                                                                                <svg class="invoice-icon">
-                                                                                    <use href="../assets/svg/icon-sprite.svg#more-horizontal"></use>
-                                                                                </svg>
-                                                                            </div>
-                                                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonicon12"><span class="dropdown-item">Last Month</span><span class="dropdown-item">Last Week</span><span class="dropdown-item">Last Day </span></div>
-                                                                        </div>
-                                                                    </div>
+                                                                    <ul class="action px-5">
+                                                                        <li class="edit"> <a href="active-clients.php"><i class="fa fa-eye"></i></a></li>
+                                                                    </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -380,16 +366,9 @@
                                                                     <div class="txt-warning d-flex align-items-center"><span class="pending bg-warning"></span><span class="f-w-500 f-13 txt-warning">On Hold</span></div>
                                                                 </td>
                                                                 <td>
-                                                                    <div class="product-sub">
-                                                                        <div class="dropdown">
-                                                                            <div id="dropdownMenuButtonicon13" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                                                                                <svg class="invoice-icon">
-                                                                                    <use href="../assets/svg/icon-sprite.svg#more-horizontal"></use>
-                                                                                </svg>
-                                                                            </div>
-                                                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonicon13"><span class="dropdown-item">Last Month</span><span class="dropdown-item">Last Week</span><span class="dropdown-item">Last Day </span></div>
-                                                                        </div>
-                                                                    </div>
+                                                                    <ul class="action px-5">
+                                                                        <li class="edit"> <a href="potential-clients.php"><i class="fa fa-eye"></i></a></li>
+                                                                    </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -410,16 +389,9 @@
                                                                     <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Pending</span></div>
                                                                 </td>
                                                                 <td>
-                                                                    <div class="product-sub">
-                                                                        <div class="dropdown">
-                                                                            <div id="dropdownMenuButtonicon11" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                                                                                <svg class="invoice-icon">
-                                                                                    <use href="../assets/svg/icon-sprite.svg#more-horizontal"></use>
-                                                                                </svg>
-                                                                            </div>
-                                                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonicon11"><span class="dropdown-item">Last Month</span><span class="dropdown-item">Last Week</span><span class="dropdown-item">Last Day </span></div>
-                                                                        </div>
-                                                                    </div>
+                                                                    <ul class="action px-5">
+                                                                        <li class="edit"> <a href="potential-clients.php"><i class="fa fa-eye"></i></a></li>
+                                                                    </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -440,16 +412,9 @@
                                                                     <div class="txt-primary d-flex align-items-center"><span class="pending bg-primary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
                                                                 </td>
                                                                 <td>
-                                                                    <div class="product-sub">
-                                                                        <div class="dropdown">
-                                                                            <div id="dropdownMenuButtonicon12" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                                                                                <svg class="invoice-icon">
-                                                                                    <use href="../assets/svg/icon-sprite.svg#more-horizontal"></use>
-                                                                                </svg>
-                                                                            </div>
-                                                                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButtonicon12"><span class="dropdown-item">Last Month</span><span class="dropdown-item">Last Week</span><span class="dropdown-item">Last Day </span></div>
-                                                                        </div>
-                                                                    </div>
+                                                                    <ul class="action px-5">
+                                                                        <li class="edit"> <a href="active-clients.php"><i class="fa fa-eye"></i></a></li>
+                                                                    </ul>
                                                                 </td>
                                                             </tr>
                                                         </tbody>

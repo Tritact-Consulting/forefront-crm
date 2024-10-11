@@ -4,7 +4,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12">
-                    <h4>Potential Clients</h4>
+                    <h4>Actice Clients</h4>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-header pb-0 card-no-border">
-                    <h4>Potential Clients List</h4>
+                    <h4>Actice Clients List</h4>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive custom-scrollbar">
@@ -37,7 +37,7 @@
                                     <td>tiger_nixon@domain.com</td>
                                     <td>ISO 9001, ISO 14001, ISO 45001</td>
                                     <td>
-                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Pending</span></div>
+                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
                                     </td>
                                     <td>
                                         <ul class="action">
@@ -51,7 +51,7 @@
                                     <td>garrett_winters@domain.com</td>
                                     <td>ISO/IEC 27001</td>
                                     <td>
-                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Pending</span></div>
+                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
                                     </td>
                                     <td>
                                         <ul class="action">
@@ -65,7 +65,7 @@
                                     <td>ashton_cox@domain.com</td>
                                     <td>ISO 50001</td>
                                     <td>
-                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Pending</span></div>
+                                        <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
                                     </td>
                                     <td>
                                         <ul class="action">
