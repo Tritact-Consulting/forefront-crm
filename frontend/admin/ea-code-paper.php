@@ -64,7 +64,6 @@
                                 <tr>
                                     <th>EA Codes</th>
                                     <th>Name</th>
-                                    <th>Description</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
