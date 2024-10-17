@@ -4,7 +4,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12">
-                    <h4>EA Codes Form</h4>
+                    <h4>EA Code List</h4>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header pb-0 card-no-border">
-                        <h4>EA Codes Form List</h4>
+                        <h4>EA Codes List</h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive custom-scrollbar">
