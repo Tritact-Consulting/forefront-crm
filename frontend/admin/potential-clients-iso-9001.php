@@ -18,12 +18,8 @@
                             <h4 class="card-title mb-0">Potential Clients - Tiger Nixon</h4>
                             <div class="card-options card-options-select">
                                 <div class="input-group mb-3">
-                                    <select name="" id="" class="form-control">
-                                        <option value="">Pending</option>
-                                        <option value="">Active</option>
-                                    </select>
                                     <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button" id="button-addon2">Change Status</button>
+                                        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap">Change Status</button>
                                     </div>
                                 </div>
                             </div>
@@ -752,6 +748,43 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalgetbootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalgetbootstrap" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-toggle-wrapper social-profile text-start dark-sign-up">
+                <h3 class="modal-header justify-content-center border-0">Riho SIGN-UP</h3>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate="">
+                        <div class="col-md-6">
+                            <label class="form-label" for="validationCustom01">First name</label>
+                            <input class="form-control" id="validationCustom01" type="text" placeholder="Enter your name" required="">
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="validationCustom02">Last name</label>
+                            <input class="form-control" id="validationCustom02" type="text" placeholder="Enter your surname" required="">
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput1">Email address</label>
+                                <input class="form-control" id="exampleFormControlInput1" type="email" placeholder="Rihotheme@gmail.com">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" id="flexCheckDefault" type="checkbox" value="">
+                                <label class="form-check-label d-block mb-0" for="flexCheckDefault">You accept our Terms and Privacy Policy by clicking Submit below.</label>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
