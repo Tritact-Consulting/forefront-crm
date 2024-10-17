@@ -778,6 +778,9 @@
                                 <input class="form-control" id="exampleFormControlInput1" type="file">
                             </div>
                         </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-primary" type="submit">Change Status</button>
+                        </div>
                     </form>
                 </div>
             </div>
