@@ -49693,9 +49693,3 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
   min-width: 200px !important;
   padding-left: 15px;
 }
-
-.card-options-select button {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  padding: 10px 30px;
-}

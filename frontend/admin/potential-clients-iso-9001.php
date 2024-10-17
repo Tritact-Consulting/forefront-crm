@@ -755,23 +755,29 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-toggle-wrapper social-profile text-start dark-sign-up">
-                <h3 class="modal-header justify-content-center border-0">Riho SIGN-UP</h3>
+                <h3 class="modal-header justify-content-center border-0">Potential to Actual Clients</h3>
                 <div class="modal-body">
                     <form class="row g-3 needs-validation" novalidate="">
                         <div class="col-md-12">
                             <label class="form-label" for="validationCustom01">Evidence for the Quotation</label>
-                            <input class="form-control" id="validationCustom01" type="file" placeholder="Enter your name" required="">
+                            <input class="form-control" id="validationCustom01" type="file" required="">
                         </div>
                         <div class="col-md-12">
                             <label class="form-label" for="validationCustom02">EA Codes Paper</label>
-                            <input class="form-control" id="validationCustom02" type="text" placeholder="Enter your surname" required="">
+                            <input class="form-control" id="validationCustom02" type="text" required="">
                         </div>
                         <div class="col-md-12">
                             <div class="mb-3">
                                 <label class="form-label" for="exampleFormControlInput1">Client Reference Number</label>
-                                <input class="form-control" id="exampleFormControlInput1" type="text" placeholder="Rihotheme@gmail.com">
+                                <input class="form-control" id="exampleFormControlInput1" type="text">
                             </div>
-                        </div>                        
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label class="form-label" for="exampleFormControlInput1">Transfer Document (For Transfer Client)</label>
+                                <input class="form-control" id="exampleFormControlInput1" type="file">
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
