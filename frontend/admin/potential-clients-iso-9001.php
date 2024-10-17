@@ -752,7 +752,7 @@
 </div>
 
 <div class="modal fade" id="exampleModalgetbootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalgetbootstrap" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-toggle-wrapper social-profile text-start dark-sign-up">
                 <h3 class="modal-header justify-content-center border-0">Potential to Actual Clients</h3>
