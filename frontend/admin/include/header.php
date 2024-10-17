@@ -33,7 +33,7 @@
         </div>
         <!-- loader ends-->
         <!-- tap on top starts-->
-        <div class="tap-top"><i class="fa-solid fa-angle-up"></i></div>
+        <div class="tap-top"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
         <!-- tap on tap ends-->
         <!-- page-wrapper Start-->
         <div class="page-wrapper compact-wrapper" id="pageWrapper">
