@@ -38,12 +38,6 @@
                                             <input class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <div class="mb-3">
-                                            <label class="form-label">Description</label>
-                                            <textarea class="form-control" rows="4"></textarea>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="form-footer">
                                     <button class="btn btn-primary btn-block">Save</button>
@@ -78,7 +72,6 @@
                                 <tr>
                                     <td>EA Code 1</td>
                                     <td>Tiger Nixon</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -89,7 +82,6 @@
                                 <tr>
                                     <td>EA Code 2</td>
                                     <td>Garrett Winters</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -100,7 +92,6 @@
                                 <tr>
                                     <td>EA Code 1</td>
                                     <td>Ashton Cox</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -111,7 +102,6 @@
                                 <tr>
                                     <td>EA Code 3</td>
                                     <td>Cedric Kelly</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -122,7 +112,6 @@
                                 <tr>
                                     <td>EA Code 1</td>
                                     <td>Sonya Frost</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -133,7 +122,6 @@
                                 <tr>
                                     <td>EA Code 2</td>
                                     <td>Jena Gaines</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -144,7 +132,6 @@
                                 <tr>
                                     <td>EA Code 1</td>
                                     <td>Quinn Flynn</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -155,7 +142,6 @@
                                 <tr>
                                     <td>EA Code 3</td>
                                     <td>Charde Marshall</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -166,7 +152,6 @@
                                 <tr>
                                     <td>EA Code 1</td>
                                     <td>Donna Snider</td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>
                                         <ul class="action">
                                             <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>

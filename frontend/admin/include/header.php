@@ -433,8 +433,8 @@
                                         <span>EA Codes</span>
                                     </a>
                                     <ul class="sidebar-submenu">
-                                        <li><a href="ea-codes-form.php">EA Codes Form</a></li>
-                                        <li><a href="ea-code-paper.php">EA Code Paper</a></li>
+                                        <li><a href="ea-codes-form.php">EA Code List</a></li>
+                                        <li><a href="ea-code-paper.php">EA Code</a></li>
                                     </ul>
                                 </li>
                                 <li class="sidebar-list">

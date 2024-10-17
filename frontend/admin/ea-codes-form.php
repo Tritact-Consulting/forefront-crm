@@ -26,13 +26,7 @@
                                             <label class="form-label">Name</label>
                                             <input class="form-control">
                                         </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="mb-3">
-                                            <label class="form-label">Description</label>
-                                            <textarea class="form-control" rows="4"></textarea>
-                                        </div>
-                                    </div>
+                                    </div>                                    
                                 </div>
                                 <div class="form-footer">
                                     <button class="btn btn-primary btn-block">Save</button>
@@ -58,14 +52,12 @@
                                 <thead>
                                     <tr>
                                         <th>Name</th>
-                                        <th>Description</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>Tiger Nixon</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -75,7 +67,6 @@
                                     </tr>
                                     <tr>
                                         <td>Garrett Winters</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -85,7 +76,6 @@
                                     </tr>
                                     <tr>
                                         <td>Ashton Cox</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -95,7 +85,6 @@
                                     </tr>
                                     <tr>
                                         <td>Cedric Kelly</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -105,7 +94,6 @@
                                     </tr>
                                     <tr>
                                         <td>Sonya Frost</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -115,7 +103,6 @@
                                     </tr>
                                     <tr>
                                         <td>Jena Gaines</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -125,7 +112,6 @@
                                     </tr>
                                     <tr>
                                         <td>Quinn Flynn</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -135,7 +121,6 @@
                                     </tr>
                                     <tr>
                                         <td>Charde Marshall</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -145,7 +130,6 @@
                                     </tr>
                                     <tr>
                                         <td>Donna Snider</td>
-                                        <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
