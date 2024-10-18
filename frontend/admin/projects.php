@@ -28,7 +28,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Client Name</label>
                                             <select name="client_name" id="client_name" class="form-control">
-                                                <option value="">Select Actual Client</option>
+                                                <option value="">Select Client</option>
                                                 <option value="">Actual Client 1</option>
                                                 <option value="">Actual Client 2</option>
                                                 <option value="">Actual Client 3</option>
@@ -71,6 +71,7 @@
                                     <tr>
                                         <th>Client</th>
                                         <th>ISO Standards</th>
+                                        <th>Audit</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -79,8 +80,10 @@
                                         <td>Tiger Nixon</td>
                                         <td>ISO 9001</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -90,8 +93,10 @@
                                         <td>Garrett Winters</td>
                                         <td>ISO 2015</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -101,8 +106,10 @@
                                         <td>Ashton Cox</td>
                                         <td>ISO 14001</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -112,8 +119,10 @@
                                         <td>Cedric Kelly</td>
                                         <td>ISO/IEC 27001</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -123,8 +132,10 @@
                                         <td>Sonya Frost</td>
                                         <td>ISO/IEC 2022</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -134,8 +145,10 @@
                                         <td>Jena Gaines</td>
                                         <td>ISO 50001</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -145,8 +158,10 @@
                                         <td>Quinn Flynn</td>
                                         <td>ISO/IEC 2022</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -156,8 +171,10 @@
                                         <td>Charde Marshall</td>
                                         <td>ISO 14001</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -167,8 +184,10 @@
                                         <td>Donna Snider</td>
                                         <td>ISO 2015</td>
                                         <td>
+                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                        </td>
+                                        <td>
                                             <ul class="action align-items-center">
-                                                <li class="edit"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-xs">Add Audit</a></li>
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
                                             </ul>
@@ -187,7 +206,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-toggle-wrapper social-profile text-start dark-sign-up">
-                <h3 class="modal-header justify-content-center border-0">Assign Auditor</h3>
+                <h3 class="modal-header justify-content-center border-0">Add Audit</h3>
                 <div class="modal-body">
                     <form class="row g-3 needs-validation" novalidate="">
                         <div class="col-md-12">
@@ -205,50 +224,29 @@
                             <input class="form-control" id="date" type="date" required="">
                         </div>
                         <div class="col-md-12">
-                            <div class="mb-3">
-                                <label class="form-label" for="auditor_name">Auditor</label>
-                                <select name="auditor_name" id="auditor_name" class="form-control">
-                                    <option value="">Auditor 1</option>
-                                    <option value="">Auditor 2</option>
-                                    <option value="">Auditor 3</option>
-                                    <option value="">Auditor 4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label class="form-label" for="audit_month">Audit Due Month</label>
-                            <select name="audit_month" id="audit_month" class="form-control">
-                                <option value="">January</option>
-                                <option value="">February</option>
-                                <option value="">March</option>
-                                <option value="">April</option>
-                                <option value="">May</option>
-                                <option value="">June</option>
-                                <option value="">July</option>
-                                <option value="">August</option>
-                                <option value="">September</option>
-                                <option value="">October</option>
-                                <option value="">November</option>
-                                <option value="">December</option>
+                            <label class="form-label" for="auditor_name">Auditor</label>
+                            <select name="auditor_name" id="auditor_name" class="form-control">
+                                <option value="">Auditor 1</option>
+                                <option value="">Auditor 2</option>
+                                <option value="">Auditor 3</option>
+                                <option value="">Auditor 4</option>
                             </select>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <label class="form-label" for="start_date">Audit Start Date</label>
                             <input class="form-control" id="start_date" type="date" required="">
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <label class="form-label" for="end_date">Audit End Date</label>
                             <input class="form-control" id="end_date" type="date" required="">
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="form-label" for="audit_month">Audit Due Month</label>
+                            <input type="month" class="form-control">
+                        </div>
+                        <div class="col-md-6">
                             <label class="form-label" for="report_date">Report Due Date</label>
                             <input class="form-control" id="report_date" type="date" required="">
-                        </div>
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label class="form-label" for="exampleFormControlInput1">Auditor Report</label>
-                                <input class="form-control" id="exampleFormControlInput1" type="file">
-                            </div>
                         </div>
                         <div class="col-md-12">
                             <button class="btn btn-primary" type="submit">Save</button>
