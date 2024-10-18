@@ -80,7 +80,7 @@
                                         <td>Tiger Nixon</td>
                                         <td>ISO 9001</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -93,7 +93,7 @@
                                         <td>Garrett Winters</td>
                                         <td>ISO 2015</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -106,7 +106,7 @@
                                         <td>Ashton Cox</td>
                                         <td>ISO 14001</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -119,7 +119,7 @@
                                         <td>Cedric Kelly</td>
                                         <td>ISO/IEC 27001</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -132,7 +132,7 @@
                                         <td>Sonya Frost</td>
                                         <td>ISO/IEC 2022</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -145,7 +145,7 @@
                                         <td>Jena Gaines</td>
                                         <td>ISO 50001</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -158,7 +158,7 @@
                                         <td>Quinn Flynn</td>
                                         <td>ISO/IEC 2022</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -171,7 +171,7 @@
                                         <td>Charde Marshall</td>
                                         <td>ISO 14001</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">
@@ -184,7 +184,7 @@
                                         <td>Donna Snider</td>
                                         <td>ISO 2015</td>
                                         <td>
-                                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap" class="btn btn-primary btn-sm">Add Audit</a>
+                                            <a href="add-audit.php" class="btn btn-primary btn-sm">Add Audit</a>
                                         </td>
                                         <td>
                                             <ul class="action align-items-center">

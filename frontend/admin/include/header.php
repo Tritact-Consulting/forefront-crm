@@ -20,6 +20,8 @@
         <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/date-picker.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/dropzone.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/datatables.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
         <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
@@ -199,7 +201,7 @@
                                                             <ul>
                                                                 <li class="notification d-flex w-100 justify-content-between align-items-center">
                                                                     <div class="d-flex w-100 notification-data justify-content-center align-items-center gap-2">
-                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/dashboard/user/3.jpg" alt="user"/></div>
+                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/user/3.jpg" alt="user"/></div>
                                                                         <div class="flex-grow-1">
                                                                             <div class="common-space user-id w-100">
                                                                                 <div class="common-space w-100"> <a class="f-w-500 f-12" href="#">Robert D. Hambly</a></div>
@@ -211,7 +213,7 @@
                                                                 </li>
                                                                 <li class="notification d-flex w-100 justify-content-between align-items-center">
                                                                     <div class="d-flex w-100 notification-data justify-content-center align-items-center gap-2">
-                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/dashboard/user/7.jpg" alt="user"/></div>
+                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/user/7.jpg" alt="user"/></div>
                                                                         <div class="flex-grow-1">
                                                                             <div class="common-space user-id w-100">
                                                                                 <div class="common-space w-100"> <a class="f-w-500 f-12" href="#">Courtney C. Strang</a></div>
@@ -223,7 +225,7 @@
                                                                 </li>
                                                                 <li class="notification d-flex w-100 justify-content-between align-items-center">
                                                                     <div class="d-flex w-100 notification-data justify-content-center align-items-center gap-2">
-                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/dashboard/user/5.jpg" alt="user"/></div>
+                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/user/5.jpg" alt="user"/></div>
                                                                         <div class="flex-grow-1">
                                                                             <div class="common-space user-id w-100">
                                                                                 <div class="common-space w-100"> <a class="f-w-500 f-12" href="#">Raye T. Sipes</a></div>
@@ -235,7 +237,7 @@
                                                                 </li>
                                                                 <li class="notification d-flex w-100 justify-content-between align-items-center">
                                                                     <div class="d-flex w-100 notification-data justify-content-center align-items-center gap-2">
-                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/dashboard/user/6.jpg" alt="user"/></div>
+                                                                        <div class="user-alerts flex-shrink-0"><img class="rounded-circle img-fluid img-40" src="../assets/images/user/6.jpg" alt="user"/></div>
                                                                         <div class="flex-grow-1">
                                                                             <div class="common-space user-id w-100">
                                                                                 <div class="common-space w-100"> <a class="f-w-500 f-12" href="#">Henry S. Miller</a></div>
@@ -407,7 +409,7 @@
                                 </li>
                                 <li class="sidebar-list">
                                     <i class="fa fa-thumb-tack"></i>
-                                    <a class="sidebar-link" href="#">
+                                    <a class="sidebar-link" href="audit.php">
                                         <svg class="stroke-icon">
                                             <use href="../assets/svg/icon-sprite.svg#stroke-widget"></use>
                                         </svg>

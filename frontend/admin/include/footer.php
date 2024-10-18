@@ -24,6 +24,9 @@
         <script src="../assets/js/dashboard_2.js"></script>
         <script src="../assets/js/wow.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../assets/js/dropzone.js"></script>
+        <script src="../assets/js/datepicker.js"></script>
+        <script src="../assets/js/datepicker.en.js"></script>
         <script src="../assets/js/script.js"></script>
         <script>new WOW().init();</script>
         <script>
