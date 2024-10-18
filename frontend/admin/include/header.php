@@ -394,7 +394,7 @@
                                 </li>
                                 <li class="sidebar-list">
                                     <i class="fa fa-thumb-tack"></i>
-                                    <a class="sidebar-link sidebar-title" href="#">
+                                    <a class="sidebar-link" href="projects.php">
                                         <svg class="stroke-icon">
                                             <use href="../assets/svg/icon-sprite.svg#stroke-file"></use>
                                         </svg>
@@ -403,10 +403,6 @@
                                         </svg>
                                         <span>Projects</span>
                                     </a>
-                                    <ul class="sidebar-submenu">
-                                        <li><a href="add-project.php">Add Project</a></li>
-                                        <li><a href="projects-list.php">Projects List</a></li>
-                                    </ul>
                                 </li>
                                 <li class="sidebar-list">
                                     <i class="fa fa-thumb-tack"></i>
