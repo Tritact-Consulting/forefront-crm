@@ -387,3 +387,8 @@
   // ================ show and hide input css end 
 
 })(jQuery);
+
+
+$(document).ready(function() {
+  $('.select2').select2();
+});

@@ -19,6 +19,7 @@
         <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="../assets/css/datatables.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
         <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">

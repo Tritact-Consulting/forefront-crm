@@ -38,7 +38,7 @@
                                     <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">ISO Standards</label>
-                                            <select name="iso_standards" id="iso_standards" class="form-control">
+                                            <select name="iso_standards" id="iso_standards" class="form-control select2" multiple>
                                                 <option value="">Select ISO Standards</option>
                                                 <option value="">ISO Standards 1</option>
                                                 <option value="">ISO Standards 2</option>
