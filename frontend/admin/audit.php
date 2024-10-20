@@ -63,15 +63,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="project-status mt-4">
-                                                <div class="d-flex mb-0">
-                                                    <p>70% </p>
-                                                    <div class="flex-grow-1 text-end"><span>Done</span></div>
-                                                </div>
-                                                <div class="progress" style="height: 5px">
-                                                    <div class="progress-bar-animated bg-primary progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
@@ -223,15 +215,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="project-status mt-4">
-                                                <div class="d-flex mb-0">
-                                                    <p>70% </p>
-                                                    <div class="flex-grow-1 text-end"><span>Done</span></div>
-                                                </div>
-                                                <div class="progress" style="height: 5px">
-                                                    <div class="progress-bar-animated bg-primary progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
@@ -307,15 +291,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="project-status mt-4">
-                                                <div class="d-flex mb-0">
-                                                    <p>70% </p>
-                                                    <div class="flex-grow-1 text-end"><span>Done</span></div>
-                                                </div>
-                                                <div class="progress" style="height: 5px">
-                                                    <div class="progress-bar-animated bg-primary progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
@@ -467,15 +443,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="project-status mt-4">
-                                                <div class="d-flex mb-0">
-                                                    <p>70% </p>
-                                                    <div class="flex-grow-1 text-end"><span>Done</span></div>
-                                                </div>
-                                                <div class="progress" style="height: 5px">
-                                                    <div class="progress-bar-animated bg-primary progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
