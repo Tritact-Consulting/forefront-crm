@@ -35,6 +35,7 @@
                 <div class="advance-options">
                 <ul class="nav border-tab" id="chat-options-tab" role="tablist">
                     <li class="nav-item"><a class="nav-link active f-w-600" id="chats-tab" data-bs-toggle="tab" href="#chats" role="tab" aria-controls="chats" aria-selected="true">Chats</a></li>
+                    <li class="nav-item"><a class="nav-link f-w-600" id="group-tab" data-bs-toggle="tab" href="#group-chats" role="tab" aria-controls="group-chats" aria-selected="true">Group Chats</a></li>
                 </ul>
                 <div class="tab-content" id="chat-options-tabContent">
                     <div class="tab-pane fade show active" id="chats" role="tabpanel" aria-labelledby="chats-tab">
@@ -179,6 +180,151 @@
                                 <p>1:50 PM</p>
                             </div>
                             </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade show" id="group-chats" role="tabpanel" aria-labelledby="group-tab">
+                        <div class="common-space">
+                            <p>Recent chats</p>
+                            <div class="header-top"><a class="btn badge-light-primary f-w-500" href="#!"><i class="fa fa-plus"></i></a></div>
+                        </div>
+                        <ul class="chats-user">
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/blog/9.jpg" alt="user">
+                                        <div class="status bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <span>Annette Black</span>
+                                        <p>Thanks</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>1:50 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/blog/12.png" alt="user">
+                                        <div class="status bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <span>Floyd Miles</span>
+                                        <p>Are you sure?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>5:14 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/blog/4.jpg" alt="user">
+                                        <div class="status bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <span>Theresa Webb</span>
+                                        <p>What's up?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>1:50 AM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/avtar/3.jpg" alt="user">
+                                        <div class="status bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <span>Cameron Williamson</span>
+                                        <p>Hey, How are you?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>2 min </p>
+                                    <div class="badge badge-light-success">15</div>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/avtar/11.jpg" alt="user">
+                                        <div class="status bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <span>Esther Howard</span>
+                                        <p>Thanks for reply</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>7:30 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/avtar/7.jpg" alt="user">
+                                        <div class="status bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <span>Jane Cooper</span>
+                                        <p>Hey, What's up?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>1:10 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/avtar/16.jpg" alt="user">
+                                        <div class="status bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <span>Ronald Richards</span>
+                                        <p>I'm ready</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>13:10 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/avtar/4.jpg" alt="user">
+                                        <div class="status bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <span>Darlene Robertson</span>
+                                        <p>Hey, How are you?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>1:30 PM</p>
+                                </div>
+                            </li>
+                            <li class="common-space">
+                                <div class="chat-time">
+                                    <div class="active-profile">
+                                        <img class="img-fluid rounded-circle" src="../assets/images/blog/comment.jpg" alt="user">
+                                        <div class="status bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <span>Darrell Steward </span>
+                                        <p>What's going on?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>2:10 PM</p>
+                                </div>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
