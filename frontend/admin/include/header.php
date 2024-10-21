@@ -419,6 +419,7 @@
                                         <span>Audit</span>
                                     </a>
                                     <ul class="sidebar-submenu">
+                                        <li><a href="audit-type.php">Audit Type</a></li>
                                         <li><a href="add-audit.php">Create Audit</a></li>
                                         <li><a href="audit.php">Audit List</a></li>
                                     </ul>
