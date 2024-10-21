@@ -35,196 +35,202 @@
                             <div class="tab-pane fade show active" id="top-home" role="tabpanel" aria-labelledby="top-home-tab">
                                 <div class="row">
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
-                                            <h5 class="f-w-500">Endless admin Design</h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Themeforest, australia </p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-primary">
+                                                <span class="badge badge-primary">Doing</span>
+                                                <h5 class="f-w-500">Endless admin Design</h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Themeforest, australia </p>
+                                                    </div>
+                                                </div>
+                                                <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 font-primary">12 </div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 font-primary">5</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 font-primary">7</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+10 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">7</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+10 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Universal admin Design </h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-success">
+                                                <span class="badge badge-success">Done</span>
+                                                <h5 class="f-w-500">Universal admin Design </h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Envato, australia</p>
+                                                    </div>
+                                                </div>
+                                                <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 text-success">24</div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 text-success">24</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+3 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+3 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Poco admin Design</h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-success">
+                                                <span class="badge badge-success">Done</span>
+                                                <h5 class="f-w-500">Poco admin Design</h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Envato, australia</p>
+                                                    </div>
+                                                </div>
+                                                <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 text-success">20</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+2 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">20</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+2 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Universal admin Design</h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-success">
+                                                <span class="badge badge-success">Done</span>
+                                                <h5 class="f-w-500">Universal admin Design</h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Envato, australia</p>
+                                                    </div>
+                                                </div>
+                                                <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 text-success">24</div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 text-success">24</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+3 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+3 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
-                                            <h5 class="f-w-500">Zeta admin Design</h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Themeforest, australia</p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-primary">
+                                                <span class="badge badge-primary">Doing</span>
+                                                <h5 class="f-w-500">Zeta admin Design</h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Themeforest, australia</p>
+                                                    </div>
+                                                </div>
+                                                <p>Zeta Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 font-primary">12 </div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 font-primary">5</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 font-primary">7</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+10 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Zeta Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">7</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+10 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
-                                        <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Poco admin Design</h5>
-                                            <div class="d-flex">
-                                                <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
-                                                <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                        <a href="audit-details.php">
+                                            <div class="project-box b-light1-success">
+                                                <span class="badge badge-success">Done</span>
+                                                <h5 class="f-w-500">Poco admin Design</h5>
+                                                <div class="d-flex">
+                                                    <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
+                                                    <div class="flex-grow-1">
+                                                        <p>Envato, australia</p>
+                                                    </div>
+                                                </div>
+                                                <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <div class="row details">
+                                                    <div class="col-6"><span>Issues </span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                    <div class="col-6"> <span>Resolved</span></div>
+                                                    <div class="col-6 text-success">40</div>
+                                                    <div class="col-6"> <span>Comment</span></div>
+                                                    <div class="col-6 text-success">20</div>
+                                                </div>
+                                                <div class="customers">
+                                                    <ul>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
+                                                        <li class="d-inline-block ms-2">
+                                                            <p class="f-12">+2 More</p>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
-                                            <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">20</div>
-                                            </div>
-                                            <div class="customers">
-                                                <ul>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/5.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block"><img class="img-30 rounded-circle" src="../assets/images/user/1.jpg" alt="" data-original-title="" title=""></li>
-                                                    <li class="d-inline-block ms-2">
-                                                        <p class="f-12">+2 More</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
