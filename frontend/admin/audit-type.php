@@ -4,7 +4,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12">
-                    <h4>Audit Type List</h4>
+                    <h4>Audit Type</h4>
                 </div>
             </div>
         </div>
