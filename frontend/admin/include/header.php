@@ -409,7 +409,7 @@
                                 </li>
                                 <li class="sidebar-list">
                                     <i class="fa fa-thumb-tack"></i>
-                                    <a class="sidebar-link" href="audit.php">
+                                    <a class="sidebar-link sidebar-title" href="#">
                                         <svg class="stroke-icon">
                                             <use href="../assets/svg/icon-sprite.svg#stroke-widget"></use>
                                         </svg>
@@ -418,6 +418,10 @@
                                         </svg>
                                         <span>Audit</span>
                                     </a>
+                                    <ul class="sidebar-submenu">
+                                        <li><a href="add-audit.php">Create Audit</a></li>
+                                        <li><a href="audit.php">Audit List</a></li>
+                                    </ul>
                                 </li>
                                 <li class="sidebar-main-title">
                                     <div>
