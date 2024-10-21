@@ -458,7 +458,7 @@
                                 </li>
                                 <li class="sidebar-list">
                                     <i class="fa fa-thumb-tack"></i>
-                                    <a class="sidebar-link sidebar-title" href="#">
+                                    <a class="sidebar-link" href="chat.php">
                                         <svg class="stroke-icon">
                                             <use href="../assets/svg/icon-sprite.svg#stroke-chat"></use>
                                         </svg>
@@ -467,10 +467,6 @@
                                         </svg>
                                         <span>Chat</span>
                                     </a>
-                                    <ul class="sidebar-submenu">
-                                        <li><a href="private-chat.php">Private Chat</a></li>
-                                        <li><a href="group-chat.php">Group Chat</a></li>
-                                    </ul>
                                 </li>
                             </ul>
                             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>

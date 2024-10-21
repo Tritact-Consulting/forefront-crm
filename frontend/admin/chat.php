@@ -4,7 +4,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-6">
-                    <h4>Private Chat</h4>
+                    <h4>Chat</h4>
                 </div>
                 <div class="col-6">
                     <ol class="breadcrumb">
@@ -15,8 +15,8 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="breadcrumb-item">Chat</li>
-                    <li class="breadcrumb-item active"> Private Chat</li>
+                    <li class="breadcrumb-item">Home</li>
+                    <li class="breadcrumb-item active"> Chat</li>
                     </ol>
                 </div>
             </div>
