@@ -49744,3 +49744,31 @@ ul#chat-options-tab li a {
   align-items: center;
   justify-content: center;
 }
+
+.send-file input {
+  border-radius: 0;
+}
+
+.send-file .btn-submit {
+  padding: 0;
+  width: 40px !important;
+  display: block;
+  height: 38px;
+  border-radius: 0;
+  text-align: center !important;!i;!;
+  background-color: #f25900;
+  color: white;
+}
+
+.send-file input.form-control:focus{
+  box-shadow: none;
+  border-color: #dee2e6;
+}
+
+.send-file .btn-upload{
+  width: 40px !important;
+  height: 38px;
+  border-radius: 0;
+  PADDING: 0;
+  text-align: center !important;!i;!;
+}

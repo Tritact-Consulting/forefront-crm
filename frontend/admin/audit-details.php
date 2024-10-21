@@ -75,6 +75,66 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="default-according style-1 faq-accordion" id="auditor-view">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-start f-w-600" type="button" data-bs-toggle="collapse" data-bs-target="#auditor-view-collapseOne" aria-expanded="true" aria-controls="auditor-view-collapseOne">Auditor</button>
+                                    </h2>
+                                    </div>
+                                    <div class="collapse show" id="auditor-view-collapseOne" aria-labelledby="headingOne" data-bs-parent="#auditor-view">
+                                        <div class="card-body socialprofile filter-cards-view">
+                                            <div class="d-flex">
+                                                <img class="img-50 img-fluid m-r-20 rounded-circle" src="../assets/images/user/2.jpg" alt="">
+                                                <div class="flex-grow-1">
+                                                    <h6 class="font-primary f-w-600 mb-2">Auditor 1</h6>
+                                                    <span class="d-block"><span><i class="fa fa-phone"> </i><span class="px-2">344417726</span></span></span>
+                                                    <span class="d-block"><span><i class="fa fa-envelope"> </i><span class="px-2">tiger_nixon@domain.com</span></span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="send-file">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Enter Message">
+                                                <div class="input-group-append d-flex">
+                                                    <button class="btn btn-outline-primary btn-upload" type="button"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                                                    <button class="btn btn-outline-secondary btn-submit" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="default-according style-1 faq-accordion" id="reviewer-view">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-start f-w-600" type="button" data-bs-toggle="collapse" data-bs-target="#reviewer-view-collapseOne" aria-expanded="true" aria-controls="reviewer-view-collapseOne">Reviewer</button>
+                                    </h2>
+                                    </div>
+                                    <div class="collapse show" id="reviewer-view-collapseOne" aria-labelledby="headingOne" data-bs-parent="#reviewer-view">
+                                        <div class="card-body socialprofile filter-cards-view">
+                                            <div class="d-flex">
+                                                <img class="img-50 img-fluid m-r-20 rounded-circle" src="../assets/images/user/3.jpg" alt="">
+                                                <div class="flex-grow-1">
+                                                    <h6 class="font-primary f-w-600 mb-2">Reviewer 1</h6>
+                                                    <span class="d-block"><span><i class="fa fa-phone"> </i><span class="px-2">344417726</span></span></span>
+                                                    <span class="d-block"><span><i class="fa fa-envelope"> </i><span class="px-2">tiger_nixon@domain.com</span></span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="send-file">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Enter Message">
+                                                <div class="input-group-append d-flex">
+                                                    <button class="btn btn-outline-primary btn-upload" type="button"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                                                    <button class="btn btn-outline-secondary btn-submit" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-xl-6 xl-60 col-lg-12 col-md-7 box-col-8e">
                             <div class="row">
