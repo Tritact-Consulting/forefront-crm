@@ -358,7 +358,7 @@
                                 <div class="row">
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Tiger Nixon</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
@@ -383,7 +383,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Garrett Winters</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
@@ -409,7 +409,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Cox Ashton</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
@@ -435,7 +435,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Garrett Winters</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
@@ -461,7 +461,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Tiger Nixon</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
@@ -486,7 +486,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
-                                            <span class="badge badge-success">Done</span>
+                                            <span class="badge badge-success">Complete</span>
                                             <h5 class="f-w-500">Cox Ashton</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
