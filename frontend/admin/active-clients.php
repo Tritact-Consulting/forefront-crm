@@ -22,7 +22,8 @@
                         <table class="display table table-stripped">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
+                                    <th>Company Name</th>
+                                    <th>Contact Name</th>
                                     <th>Phone</th>
                                     <th>Email</th>
                                     <th>ISO Standard</th>
@@ -33,6 +34,7 @@
                             <tbody>
                                 <tr>
                                     <td>Tiger Nixon</td>
+                                    <td>Garrett Winters</td>
                                     <td>344417726</td>
                                     <td>tiger_nixon@domain.com</td>
                                     <td>ISO 9001, ISO 14001, ISO 45001</td>
@@ -47,6 +49,7 @@
                                 </tr>
                                 <tr>
                                     <td>Garrett Winters</td>
+                                    <td>Tiger Nixon</td>
                                     <td>15788451414</td>
                                     <td>garrett_winters@domain.com</td>
                                     <td>ISO/IEC 27001</td>
@@ -61,6 +64,7 @@
                                 </tr>
                                 <tr>
                                     <td>Ashton Cox</td>
+                                    <td>Cox Ashton</td>
                                     <td>827795452154</td>
                                     <td>ashton_cox@domain.com</td>
                                     <td>ISO 50001</td>
