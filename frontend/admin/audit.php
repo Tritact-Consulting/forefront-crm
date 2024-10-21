@@ -37,22 +37,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-primary">
-                                                <span class="badge badge-primary">Doing</span>
-                                                <h5 class="f-w-500">Endless admin Design</h5>
+                                                <span class="badge badge-primary">In-Progress</span>
+                                                <h5 class="f-w-500">Tiger Nixon</h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Themeforest, australia </p>
+                                                        <p>Recertification </p>
                                                     </div>
                                                 </div>
                                                 <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 font-primary">12 </div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 font-primary">5</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 font-primary">7</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -70,22 +64,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-success">
-                                                <span class="badge badge-success">Done</span>
-                                                <h5 class="f-w-500">Universal admin Design </h5>
+                                                <span class="badge badge-success">Complete</span>
+                                                <h5 class="f-w-500">Garrett Winters </h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Envato, australia</p>
+                                                        <p>Stage 1</p>
                                                     </div>
                                                 </div>
                                                 <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 text-success">24</div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 text-success">24</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 text-success">40</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -103,22 +91,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-success">
-                                                <span class="badge badge-success">Done</span>
-                                                <h5 class="f-w-500">Poco admin Design</h5>
+                                                <span class="badge badge-success">Complete</span>
+                                                <h5 class="f-w-500">Cox Ashton</h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Envato, australia</p>
+                                                        <p>Stage 1</p>
                                                     </div>
                                                 </div>
                                                 <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 text-success">40</div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 text-success">40</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 text-success">20</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -136,22 +118,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-success">
-                                                <span class="badge badge-success">Done</span>
-                                                <h5 class="f-w-500">Universal admin Design</h5>
+                                                <span class="badge badge-success">Complete</span>
+                                                <h5 class="f-w-500">Garrett Winters</h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Envato, australia</p>
+                                                        <p>Stage 1</p>
                                                     </div>
                                                 </div>
                                                 <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 text-success">24</div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 text-success">24</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 text-success">40</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -169,22 +145,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-primary">
-                                                <span class="badge badge-primary">Doing</span>
-                                                <h5 class="f-w-500">Zeta admin Design</h5>
+                                                <span class="badge badge-primary">In-Progress</span>
+                                                <h5 class="f-w-500">Ashton Cox</h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Themeforest, australia</p>
+                                                        <p>Recertification</p>
                                                     </div>
                                                 </div>
                                                 <p>Zeta Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 font-primary">12 </div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 font-primary">5</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 font-primary">7</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -202,22 +172,16 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <a href="audit-details.php">
                                             <div class="project-box b-light1-success">
-                                                <span class="badge badge-success">Done</span>
-                                                <h5 class="f-w-500">Poco admin Design</h5>
+                                                <span class="badge badge-success">Complete</span>
+                                                <h5 class="f-w-500">Cox Ashton</h5>
                                                 <div class="d-flex">
                                                     <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                     <div class="flex-grow-1">
-                                                        <p>Envato, australia</p>
+                                                        <p>Stage 1</p>
                                                     </div>
                                                 </div>
                                                 <p>Poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                                 <div class="row details">
-                                                    <div class="col-6"><span>Issues </span></div>
-                                                    <div class="col-6 text-success">40</div>
-                                                    <div class="col-6"> <span>Resolved</span></div>
-                                                    <div class="col-6 text-success">40</div>
-                                                    <div class="col-6"> <span>Comment</span></div>
-                                                    <div class="col-6 text-success">20</div>
                                                 </div>
                                                 <div class="customers">
                                                     <ul>
@@ -238,22 +202,16 @@
                                 <div class="row">
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
-                                            <h5 class="f-w-500">Endless admin Design</h5>
+                                            <span class="badge badge-primary">In-Progress</span>
+                                            <h5 class="f-w-500">Tiger Nixon</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Themeforest, australia</p>
+                                                    <p>Recertification</p>
                                                 </div>
                                             </div>
                                             <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">7</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -270,22 +228,16 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
-                                            <h5 class="f-w-500">Universal admin Design</h5>
+                                            <span class="badge badge-primary">In-Progress</span>
+                                            <h5 class="f-w-500">Garrett Winters</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">40</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -301,22 +253,16 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
-                                            <h5 class="f-w-500">Poco admin Design</h5>
+                                            <span class="badge badge-primary">In-Progress</span>
+                                            <h5 class="f-w-500">Cox Ashton</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">20</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -332,22 +278,16 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
+                                            <span class="badge badge-primary">In-Progress</span>
                                             <h5 class="f-w-500">Tivo admin Design</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>Tivo Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">40</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -363,22 +303,16 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
+                                            <span class="badge badge-primary">In-Progress</span>
                                             <h5 class="f-w-500">Enzo admin Design</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Themeforest, australia</p>
+                                                    <p>Recertification</p>
                                                 </div>
                                             </div>
                                             <p>Enzo Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">7</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -395,22 +329,16 @@
                                     </div>
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-primary">
-                                            <span class="badge badge-primary">Doing</span>
+                                            <span class="badge badge-primary">In-Progress</span>
                                             <h5 class="f-w-500">Xolo admin Design</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>Xolo Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 font-primary">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 font-primary">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 font-primary">20</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -431,21 +359,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Endless admin Design</h5>
+                                            <h5 class="f-w-500">Tiger Nixon</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Themeforest, australia</p>
+                                                    <p>Recertification</p>
                                                 </div>
                                             </div>
                                             <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">7</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -462,21 +384,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Universal admin Design</h5>
+                                            <h5 class="f-w-500">Garrett Winters</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">40</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -494,21 +410,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Poco admin Design</h5>
+                                            <h5 class="f-w-500">Cox Ashton</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">20</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -526,21 +436,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Universal admin Design</h5>
+                                            <h5 class="f-w-500">Garrett Winters</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>Universal Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">24</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">40</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -558,21 +462,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Endless admin Design</h5>
+                                            <h5 class="f-w-500">Tiger Nixon</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Themeforest, australia</p>
+                                                    <p>Recertification</p>
                                                 </div>
                                             </div>
                                             <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">12 </div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">5</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">7</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
@@ -589,21 +487,15 @@
                                     <div class="col-xxl-4 col-lg-6 box-col-6">
                                         <div class="project-box b-light1-success">
                                             <span class="badge badge-success">Done</span>
-                                            <h5 class="f-w-500">Poco admin Design</h5>
+                                            <h5 class="f-w-500">Cox Ashton</h5>
                                             <div class="d-flex">
                                                 <img class="img-20 me-1 rounded-circle" src="../assets/images/user/3.jpg" alt="" data-original-title="" title="">
                                                 <div class="flex-grow-1">
-                                                    <p>Envato, australia</p>
+                                                    <p>Stage 1</p>
                                                 </div>
                                             </div>
                                             <p>poco Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
                                             <div class="row details">
-                                                <div class="col-6"><span>Issues </span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Resolved</span></div>
-                                                <div class="col-6 text-success">40</div>
-                                                <div class="col-6"> <span>Comment</span></div>
-                                                <div class="col-6 text-success">20</div>
                                             </div>
                                             <div class="customers">
                                                 <ul>
