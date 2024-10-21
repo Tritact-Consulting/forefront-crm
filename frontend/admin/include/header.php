@@ -464,8 +464,8 @@
                                         <span>Chat</span>
                                     </a>
                                     <ul class="sidebar-submenu">
-                                        <li><a href="#">Private Chat</a></li>
-                                        <li> <a href="#">Group Chat</a></li>
+                                        <li><a href="private-chat.php">Private Chat</a></li>
+                                        <li><a href="group-chat.php">Group Chat</a></li>
                                     </ul>
                                 </li>
                             </ul>
