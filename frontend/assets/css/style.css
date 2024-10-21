@@ -114,7 +114,7 @@
         5.9 Box-layout CSS 
 
  */
-:root {
+ :root {
   --theme-deafult: #006666;
   --theme-secondary: #FE6A49;
   --light-background: rgba(242, 243, 247, 0.7);
@@ -34250,12 +34250,16 @@ html {
   margin-bottom: -15px;
 }
 .photos ul li {
-  display: inline-block;
+  display: flex;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 70px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e5e5;
+  flex: 0 0 25%;
 }
-.photos ul li:nth-child(4n) {
+.photos ul li:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -49723,4 +49727,20 @@ ul#chat-options-tab li a {
 
 .admin-msg p{
   color: black;
+}
+
+.filter-cards-view ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photos ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

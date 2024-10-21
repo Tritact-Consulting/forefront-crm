@@ -148,30 +148,28 @@
                                         <div class="collapse show" id="collapseicon4" data-bs-parent="#accordion" aria-labelledby="collapseicon4">
                                             <div class="card-body photos filter-cards-view px-0">
                                                 <ul class="text-center">
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-1.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-2.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-3.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-4.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-5.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-6.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-7.png"></div>
-                                                </li>
-                                                <li>
-                                                    <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-8.png"></div>
-                                                </li>
+                                                    <li>
+                                                        <a href="../assets/images/social-app/FF9A_Client_Applic v12.8_9_14_45_SSIP 03072024.docx" download="">
+                                                            <div class="latest-post">
+                                                                <span>docx</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-2.png"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-3.png"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-4.png"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-5.png"></div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="latest-post"><img class="img-fluid" alt="" src="../assets/images/social-app/post-6.png"></div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
