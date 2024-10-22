@@ -24,7 +24,7 @@
                         <div class="card-body">
                             <form>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">Client Name</label>
                                             <select name="client_name" id="client_name" class="form-control">
@@ -35,7 +35,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">ISO Standards</label>
                                             <select name="iso_standards" id="iso_standards" class="form-control select2" multiple>
@@ -45,13 +45,13 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">EA Codes</label>
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">Scope of Certification </label>
                                             <input type="text" class="form-control">

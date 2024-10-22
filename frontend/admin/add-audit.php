@@ -42,12 +42,6 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="mb-3">
-                                        <label>Date</label>
-                                        <input class="datepicker-here form-control" type="text" data-language="en">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mb-3">
                                         <label>Auditor</label>
                                         <select name="auditor_name" id="auditor_name" class="form-control">
                                             <option value="">Auditor 1</option>
@@ -57,25 +51,25 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <div class="mb-3">
                                         <label>Audit Start Date</label>
                                         <input class="datepicker-here form-control" type="text" data-language="en">
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <div class="mb-3">
                                         <label>Audit End Date</label>
                                         <input class="datepicker-here form-control" type="text" data-language="en">
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <div class="mb-3">
                                         <label>Audit Due Month</label>
                                         <input class="form-control" type="month" data-language="en">
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <div class="mb-3">
                                         <label>Report Due Date</label>
                                         <input class="datepicker-here form-control" type="text" data-language="en">
