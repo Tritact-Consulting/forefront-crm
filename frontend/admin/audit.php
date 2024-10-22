@@ -46,7 +46,11 @@
                                                         <p>Recertification </p>
                                                     </div>
                                                 </div>
-                                                <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                                <h6>Pending Actions</h6>
+                                                <ul class="mb-2 actions">
+                                                    <li>Waiting for Form</li>
+                                                    <li>Next Actions</li>
+                                                </ul>
                                                 <div class="row details">
                                                 </div>
                                                 <div class="customers">
@@ -211,7 +215,11 @@
                                                     <p>Recertification</p>
                                                 </div>
                                             </div>
-                                            <p>Endless Admin is a full featured, multipurpose, premium bootstrap admin template.</p>
+                                            <h6>Pending Actions</h6>
+                                            <ul class="mb-2 actions">
+                                                <li>Waiting for Form</li>
+                                                <li>Next Actions</li>
+                                            </ul>
                                             <div class="row details">
                                             </div>
                                             <div class="customers">

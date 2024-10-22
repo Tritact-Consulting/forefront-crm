@@ -24,6 +24,7 @@
                                 <tr>
                                     <th>Company Name</th>
                                     <th>Contact Name</th>
+                                    <th>Phone</th>
                                     <th>Email</th>
                                     <th>ISO Standard</th>
                                     <th>Status</th>

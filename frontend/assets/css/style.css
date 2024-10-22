@@ -33638,6 +33638,7 @@ footer .license-list h6 {
 }
 .project-box h6 {
   font-weight: 500 !important;
+  margin-bottom: 5px;
 }
 .project-box .badge {
   position: absolute;
@@ -49771,4 +49772,9 @@ ul#chat-options-tab li a {
   border-radius: 0;
   PADDING: 0;
   text-align: center !important;!i;!;
+}
+
+.actions li {
+  margin-left: 18px;
+  list-style: circle;
 }
