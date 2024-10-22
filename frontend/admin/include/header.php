@@ -375,8 +375,8 @@
                                         <span>Settings</span>
                                     </a>
                                     <ul class="sidebar-submenu">
-                                        <li><a href="#">Roles</a></li>
-                                        <li><a href="#">Permission</a></li>
+                                        <li><a href="roles.php">Roles</a></li>
+                                        <li><a href="permission.php">Permission</a></li>
                                     </ul>
                                 </li>
                                 <li class="sidebar-list">
@@ -404,7 +404,7 @@
                                         <svg class="fill-icon">
                                             <use href="../assets/svg/icon-sprite.svg#fill-file"></use>
                                         </svg>
-                                        <span>Projects</span>
+                                        <span>Audit Cycle</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-list">
@@ -420,7 +420,7 @@
                                     </a>
                                     <ul class="sidebar-submenu">
                                         <li><a href="audit-type.php">Audit Type</a></li>
-                                        <li><a href="add-audit.php">Create Audit</a></li>
+                                        <li><a href="add-audit.php">Audit Planing</a></li>
                                         <li><a href="audit.php">Audit List</a></li>
                                     </ul>
                                 </li>

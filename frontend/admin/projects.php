@@ -4,10 +4,10 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-6">
-                    <h4>Projects</h4>
+                    <h4>Audit Cycle</h4>
                 </div>
                 <div class="col-6 text-end">
-                    <a href="projects-list.php" class="btn btn-primary">Projects List</a>
+                    <a href="projects-list.php" class="btn btn-primary">Audit Cycle List</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                         <div class="card-body">
                             <form>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <div class="mb-3">
                                             <label class="form-label">Client Name</label>
                                             <select name="client_name" id="client_name" class="form-control">
@@ -35,7 +35,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <div class="mb-3">
                                             <label class="form-label">ISO Standards</label>
                                             <select name="iso_standards" id="iso_standards" class="form-control select2" multiple>
@@ -43,6 +43,18 @@
                                                 <option value="">ISO Standards 2</option>
                                                 <option value="">ISO Standards 3</option>
                                             </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">EA Codes</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">Scope of Certification </label>
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +74,7 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header pb-0 card-no-border">
-                        <h4>Projects List Data</h4>
+                        <h4>Audit Cycle List</h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive custom-scrollbar">
