@@ -377,6 +377,7 @@
                                     <ul class="sidebar-submenu">
                                         <li><a href="roles.php">Roles</a></li>
                                         <li><a href="permission.php">Permission</a></li>
+                                        <li><a href="assign-permission.php">Assign Permission</a></li>
                                     </ul>
                                 </li>
                                 <li class="sidebar-list">
