@@ -425,6 +425,23 @@
                                         <li><a href="audit.php">Audit List</a></li>
                                     </ul>
                                 </li>
+                                <li class="sidebar-list">
+                                    <i class="fa fa-thumb-tack"></i>
+                                    <a class="sidebar-link sidebar-title" href="#">
+                                        <svg class="stroke-icon">
+                                            <use href="../assets/svg/icon-sprite.svg#stroke-task"></use>
+                                        </svg>
+                                        <svg class="fill-icon">
+                                            <use href="../assets/svg/icon-sprite.svg#fill-task"> </use>
+                                        </svg>
+                                        <span>Certification</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li><a href="certification.php">Certification</a></li>
+                                        <li><a href="certificate-allocation.php">Certificate Allocation</a></li>
+                                        <li><a href="#">Audit List</a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-main-title">
                                     <div>
                                         <h6 class="lan-8">Applications</h6>
