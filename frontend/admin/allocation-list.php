@@ -26,6 +26,7 @@
                                         <th>Certificate</th>
                                         <th>ISO Standards</th>
                                         <th>Date</th>
+                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -35,6 +36,9 @@
                                         <td>Certificate 01</td>
                                         <td>ISO 14001</td>
                                         <td>21-04-22</td>
+                                        <td>
+                                            <div class="txt-primary d-flex align-items-center"><span class="pending bg-primary"></span><span class="f-w-500 f-13 txt-primary">Active</span></div>
+                                        </td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
@@ -48,6 +52,9 @@
                                         <td>ISO 45001</td>
                                         <td>04-01-23</td>
                                         <td>
+                                            <div class="txt-warning d-flex align-items-center"><span class="pending bg-warning"></span><span class="f-w-500 f-13 txt-warning">Withdrawn</span></div>
+                                        </td>
+                                        <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
@@ -60,6 +67,9 @@
                                         <td>ISO 50001</td>
                                         <td>12-02-22</td>
                                         <td>
+                                            <div class="txt-warning d-flex align-items-center"><span class="pending bg-info"></span><span class="f-w-500 f-13 txt-info">Suspended</span></div>
+                                        </td>
+                                        <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>
                                                 <li class="delete"><a href="#"><i class="fa fa-trash-o"></i></a></li>
@@ -71,6 +81,9 @@
                                         <td>Certificate 04</td>
                                         <td>ISO 9001</td>
                                         <td>27-01-22</td>
+                                        <td>
+                                            <div class="txt-secondary d-flex align-items-center"><span class="pending bg-secondary"></span><span class="f-w-500 f-13 txt-secondary">Expired</span></div>
+                                        </td>
                                         <td>
                                             <ul class="action">
                                                 <li class="edit"> <a href="#"><i class="fa fa-edit"></i></a></li>

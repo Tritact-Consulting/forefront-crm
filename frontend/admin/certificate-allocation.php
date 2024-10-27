@@ -35,7 +35,12 @@
                                     <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label">Certification</label>
-                                            <input class="form-control" type="file">
+                                            <select name="client" id="client" class="form-control">
+                                                <option value="">Select Certification</option>
+                                                <option value="">Certification 1</option>
+                                                <option value="">Certification 2</option>
+                                                <option value="">Certification 3</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
