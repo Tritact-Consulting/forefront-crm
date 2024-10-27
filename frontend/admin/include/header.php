@@ -439,7 +439,7 @@
                                     <ul class="sidebar-submenu">
                                         <li><a href="certification.php">Certification</a></li>
                                         <li><a href="certificate-allocation.php">Certificate Allocation</a></li>
-                                        <li><a href="#">Audit List</a></li>
+                                        <li><a href="allocation-list.php">Allocation List</a></li>
                                     </ul>
                                 </li>
                                 <li class="sidebar-main-title">
