@@ -19,19 +19,19 @@
                         <div class="status-wrapper">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                <label class="form-check-label mb-0" for="inlineCheckbox1">Active</label>
+                                <label class="form-check-label mb-0 txt-primary" for="inlineCheckbox1">Active</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                <label class="form-check-label mb-0" for="inlineCheckbox2">Withdrawn</label>
+                                <label class="form-check-label mb-0 txt-warning" for="inlineCheckbox2">Withdrawn</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                <label class="form-check-label mb-0" for="inlineCheckbox3">Suspended</label>
+                                <label class="form-check-label mb-0 txt-info" for="inlineCheckbox3">Suspended</label>
                             </div>
                             <div class="form-check form-check-inline mx-0">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                <label class="form-check-label mb-0" for="inlineCheckbox4">Expired</label>
+                                <label class="form-check-label mb-0 txt-secondary" for="inlineCheckbox4">Expired</label>
                             </div>
                         </div>
                     </div>
